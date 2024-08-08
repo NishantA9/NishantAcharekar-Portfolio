@@ -524,8 +524,8 @@ export const projects = [
       "JavaScript",
     ],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/NishantA9/NishantAcharekar-Portfolio",
+    webapp: "https://nishantacharekarportfolio.netlify.app/",
   },
   {
     id: 2,
