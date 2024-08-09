@@ -488,7 +488,7 @@ export const education = [
     school: "University of Mumbai ",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
-    desc: "I have Completed my Bachelors in Information Technology at Excelssior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
+    desc: "I have Completed my Bachelor in Information Technology at Excelsior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
     degree: "Bachelor of Engineering in Information Technology",
   },
 ];
@@ -505,7 +505,21 @@ export const projects = [
       "https://www.globetrove.com/wp-content/uploads/2018/01/Pratapgad-fort-featured.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Php"],
     category: "web app",
-    github: "",
+    member: [
+      {
+        name: "Nishant Acharekar",
+        img: "https://avatars.githubusercontent.com/u/84176040?v=4",
+        linkedin: "https://www.linkedin.com/in/nishantacharekar/",
+        github: "https://github.com/NishantA9",
+      },
+      {
+        name: "Bhushan Gunjal",
+        img: "https://avatars.githubusercontent.com/u/79009485?v=4",
+        linkedin: "https://www.linkedin.com/in/bhushan-gunjal/",
+        github: "https://github.com/BhushanGunjal",
+      },
+    ],
+    github: "https://github.com/NishantA9/Killa",
   },
 
   {
@@ -686,62 +700,6 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/NishantA9/ML-ImageAI",
   },
-
-  // {
-  //   id: 10,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  
-  // {
-  //   id: 9,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
 
   {
     id: 10,
