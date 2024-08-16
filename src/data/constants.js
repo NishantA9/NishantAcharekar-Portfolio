@@ -14,7 +14,7 @@ export const Bio = {
     "I am an adaptable and enthusiastic professional with a passion for continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/15UCIIX_eqUBJyR7CZOEj2XkBQrWQMrWS/view?usp=sharing",
+    "https://drive.google.com/file/d/1WCbbhOUepycqOLxzFnGjiU_7gIVC_sXO/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
