@@ -484,7 +484,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://management.ind.in/img/B-Ed-entrance-exam-eligibility-of-University-of-Mumbai.png",
+    img: "https://ak.jogurucdn.com/media/image/p14/place-2015-10-28-7-Universityofmumbaif84185d11112e785d495a599d0b72c6c.jpg",
     school: "University of Mumbai ",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
