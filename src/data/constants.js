@@ -353,11 +353,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
+    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "August 2024 - Present",
-    desc: "Graduate Teaching Assistant for ITCS-ITIS 4102/5102: Survey of Programming Languages (Fall 2024) and ITCS-ITIS 6112/8112: Software System Design and Implementation (Spring 2025), under the guidance of Professor Ali Sever. Assisted students in exploring diverse programming languages, software design principles, and their practical applications in real-world scenarios. These roles have enhanced my technical expertise, mentoring skills, and understanding of how academic concepts align with industry requirements.",
+    desc: "Graduate Teaching Assistant for ITCS-ITIS 4102/5102: Survey of Programming Languages (Fall 2024) and ITCS-ITIS 6112/8112: Software System Design and Implementation (Spring 2025), under the guidance of Professor Ali Sever.  Assisted students in exploring diverse programming languages, software design principles, and their practical applications in real-world scenarios. These roles have enhanced my technical expertise, mentoring skills, and understanding of how academic concepts align with industry requirements.",
     skills: [
       "Teaching Assistance",
       "Curriculum Development",
