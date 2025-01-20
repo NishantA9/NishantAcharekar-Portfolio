@@ -493,9 +493,23 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "UNCC Redesigned/Enhanced",
+    date: "Jan 2025",
+    description:
+      "A High Fidelity Prototype representing some unique and necessary changes in UNC Charlotte's Admissions & Financial Aid Website.",
+    image:
+      "https://github.com/NishantA9/Images/raw/main/Figma.png",
+    tags: [
+      "Figma",
+    ],
+    category: "web app",
+    github: "https://www.figma.com/design/JPFziWrO16tuKkxboyGlwd/Nishant-High-Fidelity-Website---UNCC-Admissions-%26-Financial-Aid-Project?node-id=0-1&t=LuGQRrFKtFuboz2y-1",
+  },
 
   {
-    id: 0,
+    id: 2,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -522,7 +536,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 3,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -541,7 +555,7 @@ export const projects = [
     webapp: "https://nishantacharekarportfolio.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Manga-Kun Reviews",
     date: "Jul 2024",
     description:
@@ -565,7 +579,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Crypto Dunks",
     date: "Jul 2024",
     description:
@@ -587,7 +601,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "React Keeper App",
     date: "Jun 2024",
     description:
@@ -608,7 +622,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Website Collection",
     date: "Aug 2024",
     description:
@@ -635,7 +649,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Backend Projects",
     date: "Aug 2024",
     description:
@@ -654,7 +668,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
     title: "Emotion Based Music AI",
     date: "Dec 2023",
     description:
@@ -667,7 +681,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
     date: "Apr 2024",
     description:
@@ -684,7 +698,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Image AI",
     date: "Jul 2024",
     description:
@@ -701,7 +715,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 12,
     title: "Weather Website",
     date: "Jun 2024",
     description:
@@ -730,7 +744,7 @@ export const projects = [
 
   
   {
-    id: 11,
+    id: 13,
     title: "Permalist Website",
     date: "May 2024",
     description:
@@ -753,7 +767,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 14,
     title: "Android Chat App",
     date: "Nov 2023",
     description:
@@ -766,7 +780,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 15,
     title: "Weather App",
     date: "Oct 2023",
     description:
@@ -779,7 +793,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 16,
     title: "Todo App",
     date: "Sep 2023",
     description:
@@ -792,7 +806,7 @@ export const projects = [
   },
 
   {
-    id: 15,
+    id: 17,
     title: "Calculator App",
     date: "Aug 2023",
     description:
@@ -805,7 +819,7 @@ export const projects = [
   },
 
   {
-    id: 16,
+    id: 18,
     title: "FastnFitness App",
     date: "Sep 2021",
     description:
