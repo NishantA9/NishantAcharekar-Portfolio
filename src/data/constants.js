@@ -1,17 +1,16 @@
 export const Bio = {
   name: "Nishant Acharekar",
   roles: [
-    "Software Engineer",
     "Web Developer",
+    "UI/UX Designer",
     "Software Developer",
     "Android Developer",
-    "Full Stack Developer",
-    "Future UI/UX Designer",
     "Programmer",
+    "Software Engineer",
   ],
   description:
-    // "I am an enthusiastic and adaptable professional with a keen interest in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
-    "I am an adaptable and enthusiastic professional with a passion for continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
+    // "I am an enthusiastic and adaptable professional interested in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
+    "I am an adaptable and enthusiastic professional passionate about continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
   github: "https://github.com/NishantA9",
   resume:
     "https://drive.google.com/file/d/1WCbbhOUepycqOLxzFnGjiU_7gIVC_sXO/view?usp=drive_link",
@@ -358,7 +357,7 @@ export const experiences = [
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "August 2024 - Present",
-    desc: "As a Graduate Teaching Assistant at UNC Charlotte, I assist professors in teaching Graduate courses, conduct office hours, providing academic support to students, and facilitating classroom discussions. Graded assignments, exams, and provided constructive feedback to enhance student learning. Developed instructional materials and contributed to curriculum planning. ",
+    desc: "Graduate Teaching Assistant for ITCS-ITIS 4102/5102: Survey of Programming Languages (Fall 2024) and ITCS-ITIS 6112/8112: Software System Design and Implementation (Spring 2025), under the guidance of Professor Ali Sever. Assisted students in exploring diverse programming languages, software design principles, and their practical applications in real-world scenarios. These roles have enhanced my technical expertise, mentoring skills, and understanding of how academic concepts align with industry requirements.",
     skills: [
       "Teaching Assistance",
       "Curriculum Development",
@@ -409,7 +408,7 @@ export const experiences = [
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions ",
     date: "Feb 2021 - Mar 2021",
-    desc: "●	Conducted data cleansing, visualization, and predictive analytics using Python. ● Utilized libraries such as Pandas, NumPy, Matplotlib, and Scikit-learn to analyze and visualize data.",
+    desc: "●	Conducted data cleansing, visualization, and predictive analytics using Python. ● Utilized libraries such as Pandas, NumPy, matplotlib, and Scikit-learn to analyze and visualize data.",
     skills: [
       "Python",
       "Data Analysis",
@@ -441,7 +440,7 @@ export const experiences = [
     role: "Streamer & Content Creator",
     company: "YouTube",
     date: "Dec 2016 - Present",
-    desc: "Started my YouTube channel named FireEmperor, where I create gaming videos and do live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
+    desc: "I started my YouTube channel named FireEmperor, where I create gaming videos and make live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
     skills: [
       "Adobe Photoshop",
       "Adobe Illustrator",
@@ -824,8 +823,9 @@ export const TimeLineData = [
   { year: 2018, text: "Completed HSC, Started my Bachelors" },
   { year: 2019, text: "Started Streaming on YouTube" },
   { year: 2020, text: "Completed my Graphic Design Internship" },
-  { year: 2021, text: "Completed my Data Scientist Internsip and Web Developer Internship" },
+  { year: 2021, text: "Completed my Data Scientist Internship and Web Developer Internship" },
   { year: 2022, text: "Completed my Bachelors, Completed 2K Subscribers on YouTube, Got Placed in Nelito Systems as a Software Engineer" },
   { year: 2023, text: "Resigned from Nelito and Started my Masters at UNC Charlotte" },
   { year: 2024, text: "Working as an AV-TECH, and now Started my Journey as a Graduate Teaching Assistant at UNC Charlotte" },
+  { year: 2025, text: "Working as a Graduate Teaching Assistant for Professor Ali Sever for SSDI Course at UNC Charlotte" },
 ];
