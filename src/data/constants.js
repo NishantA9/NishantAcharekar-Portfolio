@@ -436,7 +436,7 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://yt3.ggpht.com/0t2q8yDI6Otlkf1GbwUrqh11xyUfm3eBzfUEM8jAzXKBjCpqSAcQHkg3vhAOE7959nDE8hHc=s108-c-k-c0x00ffffff-no-rj",
+    img: "https://yt3.ggpht.com/ieKOrN6J59D-2mIKkiu0FyukS3zyPrK0X1uAtS6tWB0vC4ulLNlXsTbqiyd2hpH7w6kVoHMz=s108-c-k-c0x00ffffff-no-rj",
     role: "Streamer & Content Creator",
     company: "YouTube",
     date: "Dec 2016 - Present",
