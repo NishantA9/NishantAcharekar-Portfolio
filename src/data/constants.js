@@ -436,7 +436,7 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://yt3.ggpht.com/ieKOrN6J59D-2mIKkiu0FyukS3zyPrK0X1uAtS6tWB0vC4ulLNlXsTbqiyd2hpH7w6kVoHMz=s108-c-k-c0x00ffffff-no-rj",
+    img: "https://github.com/NishantA9/Images/raw/main/FELOGO.png",
     role: "Streamer & Content Creator",
     company: "YouTube",
     date: "Dec 2016 - Present",
@@ -455,7 +455,7 @@ export const experiences = [
   },
   {
     "id": 6,
-    "img": "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
+    "img": "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     "role": "AV Technician",
     "company": "UNC Charlotte",
     "date": "May 2024 - Present",
@@ -474,7 +474,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
+    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.85 GPA",
@@ -483,7 +483,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://ak.jogurucdn.com/media/image/p14/place-2015-10-28-7-Universityofmumbaif84185d11112e785d495a599d0b72c6c.jpg",
+    img: "https://github.com/NishantA9/Images/raw/main/UOM.jpeg",
     school: "University of Mumbai ",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
@@ -495,10 +495,10 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "UNCC Redesigned/Enhanced",
+    title: "UNCC High Fidelity Prototype",
     date: "Jan 2025",
     description:
-      "A High Fidelity Prototype representing some unique and necessary changes in UNC Charlotte's Admissions & Financial Aid Website.",
+      "A High Fidelity Prototype representing some unique and necessary changes in UNC Charlotte's Admissions & Financial Aid Website made in FIGMA.",
     image:
       "https://github.com/NishantA9/Images/raw/main/Figma.png",
     tags: [
