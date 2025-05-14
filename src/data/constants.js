@@ -9,11 +9,11 @@ export const Bio = {
     "Data Enthusiast",
   ],
   description:
-    // "I am an enthusiastic and adaptable professional with a keen interest in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
-    "I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
+    // "I am an enthusiastic and adaptable professional interested in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
+    "I am an adaptable and enthusiastic professional passionate about continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/1dGLJ81LGLK4f5_1A4bD9OCyl8MEKzAjV/view?usp=sharing",
+    "https://drive.google.com/file/d/17-Wqi6RtUEPFSaq6RncJAtCyAvUYYwT6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -353,7 +353,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
+    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "August 2024 - May 2025",
@@ -439,11 +439,11 @@ export const experiences = [
   },
   {
     id: 5,
-    img: "https://yt3.ggpht.com/0t2q8yDI6Otlkf1GbwUrqh11xyUfm3eBzfUEM8jAzXKBjCpqSAcQHkg3vhAOE7959nDE8hHc=s108-c-k-c0x00ffffff-no-rj",
+    img: "https://github.com/NishantA9/Images/raw/main/FELOGO.png",
     role: "Streamer & Content Creator",
     company: "YouTube",
     date: "Dec 2016 - Present",
-    desc: "Started my YouTube channel named FireEmperor, where I create gaming videos and do live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
+    desc: "I started my YouTube channel named FireEmperor, where I create gaming videos and make live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
     skills: [
       "Adobe Photoshop",
       "Adobe Illustrator",
@@ -461,7 +461,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
+    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.90 GPA",
@@ -470,19 +470,33 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://management.ind.in/img/B-Ed-entrance-exam-eligibility-of-University-of-Mumbai.png",
+    img: "https://github.com/NishantA9/Images/raw/main/UOM.jpeg",
     school: "University of Mumbai ",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
-    desc: "I have Completed my Bachelors in Information Technology at Excelssior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
+    desc: "I have Completed my Bachelor in Information Technology at Excelsior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
     degree: "Bachelor of Engineering in Information Technology",
   },
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "UNCC High Fidelity Prototype",
+    date: "Jan 2025",
+    description:
+      "A High Fidelity Prototype representing some unique and necessary changes in UNC Charlotte's Admissions & Financial Aid Website made in FIGMA.",
+    image:
+      "https://github.com/NishantA9/Images/raw/main/Figma.png",
+    tags: [
+      "Figma",
+    ],
+    category: "web app",
+    github: "https://www.figma.com/design/JPFziWrO16tuKkxboyGlwd/Nishant-High-Fidelity-Website---UNCC-Admissions-%26-Financial-Aid-Project?node-id=0-1&t=LuGQRrFKtFuboz2y-1",
+  },
 
   {
-    id: 0,
+    id: 2,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -491,11 +505,25 @@ export const projects = [
       "https://www.globetrove.com/wp-content/uploads/2018/01/Pratapgad-fort-featured.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Php"],
     category: "web app",
-    github: "",
+    member: [
+      {
+        name: "Nishant Acharekar",
+        img: "https://avatars.githubusercontent.com/u/84176040?v=4",
+        linkedin: "https://www.linkedin.com/in/nishantacharekar/",
+        github: "https://github.com/NishantA9",
+      },
+      {
+        name: "Bhushan Gunjal",
+        img: "https://avatars.githubusercontent.com/u/79009485?v=4",
+        linkedin: "https://www.linkedin.com/in/bhushan-gunjal/",
+        github: "https://github.com/BhushanGunjal",
+      },
+    ],
+    github: "https://github.com/NishantA9/Killa",
   },
 
   {
-    id: 1,
+    id: 3,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -514,7 +542,7 @@ export const projects = [
     webapp: "https://nishantacharekarportfolio.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Manga-Kun Reviews",
     date: "Jul 2024",
     description:
@@ -538,7 +566,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Crypto Dunks",
     date: "Jul 2024",
     description:
@@ -560,7 +588,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "React Keeper App",
     date: "Jun 2024",
     description:
@@ -581,7 +609,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Website Collection",
     date: "Aug 2024",
     description:
@@ -608,7 +636,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Backend Projects",
     date: "Aug 2024",
     description:
@@ -627,7 +655,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
     title: "Emotion Based Music AI",
     date: "Dec 2023",
     description:
@@ -640,7 +668,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
     date: "Apr 2024",
     description:
@@ -657,7 +685,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Image AI",
     date: "Jul 2024",
     description:
@@ -673,64 +701,8 @@ export const projects = [
     github: "https://github.com/NishantA9/ML-ImageAI",
   },
 
-  // {
-  //   id: 10,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  
-  // {
-  //   id: 9,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-
   {
-    id: 10,
+    id: 12,
     title: "Weather Website",
     date: "Jun 2024",
     description:
@@ -759,7 +731,7 @@ export const projects = [
 
   
   {
-    id: 11,
+    id: 13,
     title: "Permalist Website",
     date: "May 2024",
     description:
@@ -782,7 +754,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 14,
     title: "Android Chat App",
     date: "Nov 2023",
     description:
@@ -795,7 +767,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 15,
     title: "Weather App",
     date: "Oct 2023",
     description:
@@ -808,7 +780,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 16,
     title: "Todo App",
     date: "Sep 2023",
     description:
@@ -821,7 +793,7 @@ export const projects = [
   },
 
   {
-    id: 15,
+    id: 17,
     title: "Calculator App",
     date: "Aug 2023",
     description:
@@ -834,7 +806,7 @@ export const projects = [
   },
 
   {
-    id: 16,
+    id: 18,
     title: "FastnFitness App",
     date: "Sep 2021",
     description:
@@ -852,7 +824,7 @@ export const TimeLineData = [
   { year: 2018, text: "Completed HSC, Started my Bachelors" },
   { year: 2019, text: "Started Streaming on YouTube" },
   { year: 2020, text: "Completed my Graphic Design Internship" },
-  { year: 2021, text: "Completed my Data Scientist Internsip and Web Developer Internship" },
+  { year: 2021, text: "Completed my Data Scientist Internship and Web Developer Internship" },
   { year: 2022, text: "Completed my Bachelors, Completed 2K Subscribers on YouTube, Got Placed in Nelito Systems as a Software Engineer" },
   { year: 2023, text: "Resigned from Nelito and Started my Masters at UNC Charlotte" },
   { year: 2024, text: "Working as an AV-TECH, and now Started my Journey as a Graduate Teaching Assistant at UNC Charlotte" },
