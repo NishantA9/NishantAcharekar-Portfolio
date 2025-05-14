@@ -354,7 +354,7 @@ export const experiences = [
     img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
-    date: "August 2024 - May 2025",
+    date: "Aug 2024 - May 2025",
     desc: "Guided over 50 graduate students in programming and system design courses, boosting pass rates by 20%. Created instructional materials, organized 5+ technical workshops, and handled 30+ weekly queries to enhance engagement and academic performance.",
     skills: [
       "Teaching Assistance",
