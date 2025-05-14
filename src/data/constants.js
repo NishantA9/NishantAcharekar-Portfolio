@@ -2,19 +2,18 @@ export const Bio = {
   name: "Nishant Acharekar",
   roles: [
     "Software Engineer",
-    "Web Developer",
-    "Software Developer",
-    "Android Developer",
     "Full Stack Developer",
-    "Future UI/UX Designer",
-    "Programmer",
+    "Frontend Developer",
+    "UI/UX Designer",
+    "Web Developer",
+    "Data Enthusiast",
   ],
   description:
     // "I am an enthusiastic and adaptable professional with a keen interest in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
-    "I am an adaptable and enthusiastic professional with a passion for continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
+    "I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/15UCIIX_eqUBJyR7CZOEj2XkBQrWQMrWS/view?usp=sharing",
+    "https://drive.google.com/file/d/1dGLJ81LGLK4f5_1A4bD9OCyl8MEKzAjV/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -357,14 +356,15 @@ export const experiences = [
     img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
-    date: "August 2024 - Present",
-    desc: "As a Graduate Teaching Assistant at UNC Charlotte, I assist professors in teaching Graduate courses, conduct office hours, providing academic support to students, and facilitating classroom discussions. Graded assignments, exams, and provided constructive feedback to enhance student learning. Developed instructional materials and contributed to curriculum planning. ",
+    date: "August 2024 - May 2025",
+    desc: "Guided over 50 graduate students in programming and system design courses, boosting pass rates by 20%. Created instructional materials, organized 5+ technical workshops, and handled 30+ weekly queries to enhance engagement and academic performance.",
     skills: [
       "Teaching Assistance",
-      "Curriculum Development",
+      "Workshop Coordination",
       "Grading",
       "Academic Support",
-      "Instructional Material Development",
+      "Curriculum Development",
+      "System Design",
     ],
   },
   {
@@ -373,7 +373,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
-    desc: "Worked on Punjab & Sind Bank Project, where I Developed FinDART screens and reports using ASP.NET MVC, C#, MySql, and Oracle. ● Contributed to front-end development and data conversion to Word, Excel, and PDF formats. ● Executed stored procedures and performed CRUD operations. Collaborated with the team to identify and fix bugs. ● Integrated new reports with SQL Server Reporting Services. Wrote and tested code for various projects.",
+    desc: "Engineered Fin-DART for Punjab & Sind Bank, improving reporting efficiency by 25%. Automated workflows to cut manual effort by 40%, and integrated SQL Server Reporting Services to speed up CRUD operations by 30%.",
     skills: [
       "Oracle",
       "ASP.NET",
@@ -392,9 +392,10 @@ export const experiences = [
     role: "Web Development Intern",
     company: "Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
-    desc: "Developed a responsive website for the Sparks Foundation using HTML, CSS, and JavaScript. ● Created a donation page with a payment gateway integration. Implemented a Simple Banking System with a transfer of money between users. ● Designed a user-friendly interface and ensured cross-browser compatibility.",
+    desc: "Programmed and deployed 2 NodeJS web applications, increasing user engagement by 30%. Conducted code reviews and performance optimization, reducing load times by 15%.",
     skills: [
       "HTML",
+      "NodeJS",
       "CSS",
       "JavaScript",
       "PHP",
@@ -409,7 +410,7 @@ export const experiences = [
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions ",
     date: "Feb 2021 - Mar 2021",
-    desc: "●	Conducted data cleansing, visualization, and predictive analytics using Python. ● Utilized libraries such as Pandas, NumPy, Matplotlib, and Scikit-learn to analyze and visualize data.",
+    desc: "Performed Python-based analytics on 10,000+ data points, improving business insights by 15%. Utilized Pandas, NumPy, Matplotlib, and Scikit-learn for data visualization and predictive analytics.",
     skills: [
       "Python",
       "Data Analysis",
@@ -420,6 +421,7 @@ export const experiences = [
       "Pandas",
       "NumPy",
       "Matplotlib",
+      "Scikit-learn",
     ],
   },
   {
@@ -428,7 +430,7 @@ export const experiences = [
     role: "Graphic Design Intern",
     company: "Rotaract Club of KC ",
     date: "Sep 2020 - Oct 2020",
-    desc: "●	Created graphic designs for various projects under Digital Communications Avenue under Rotaract Club of K.C College of Engineering, Thane (East)",
+    desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement by 20%.",
     skills: [
       "Adobe Photoshop",
       "Adobe Illustrator",
@@ -454,22 +456,6 @@ export const experiences = [
       "Thumbnail Design",
     ],
   },
-  {
-    "id": 6,
-    "img": "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
-    "role": "AV Technician",
-    "company": "UNC Charlotte",
-    "date": "May 2024 - Present",
-    "desc": "As an AV Technician at UNC Charlotte, I assist with audiovisual projects, control lighting, and test microphones and sound levels to ensure high-quality presentations and events. I am responsible for setting up and troubleshooting AV equipment, coordinating with event organizers, and providing technical support during events.",
-    "skills": [
-      "AV Equipment Setup",
-      "Lighting Control",
-      "Microphone Testing",
-      "Sound Level Adjustment",
-      "Technical Support",
-      "Troubleshooting"
-    ]
-  },
 ];
 
 export const education = [
@@ -478,8 +464,8 @@ export const education = [
     img: "https://sais.org/app/uploads/2022/03/UNC-Charlotte-logo.png",
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
-    grade: "3.85 GPA",
-    desc: "I’m pursuing a Master’s degree in Information Technology at UNC Charlotte with a GPA of 3.85. My coursework includes Data Structures & Algorithms, Software System Design, Mobile Application Development, Network Security, and Applied Databases. Currently, I’m studying Big Data Analytics, Human-Centered Design, and IT Ethics. Throughout my studies, I’ve developed various projects demonstrating my skills and practical experience.",
+    grade: "3.90 GPA",
+    desc: "I recently completed my Master’s degree in Information Technology at UNC Charlotte with a GPA of 3.90. My coursework included Mobile Application Development, Algorithms & Data Structures, Software System Design & Implementation, Network Security, Principles of Information Security & Privacy, Applied Databases, Human-Centered Design, IT Ethics & Privacy, Big Data Analytics for Computing, and Survey of Programming Languages. Through this program, I developed hands-on projects that reflect my technical skills and real-world problem-solving abilities.",
     degree: "Master of Science in Information Technology ",
   },
   {
@@ -870,4 +856,5 @@ export const TimeLineData = [
   { year: 2022, text: "Completed my Bachelors, Completed 2K Subscribers on YouTube, Got Placed in Nelito Systems as a Software Engineer" },
   { year: 2023, text: "Resigned from Nelito and Started my Masters at UNC Charlotte" },
   { year: 2024, text: "Working as an AV-TECH, and now Started my Journey as a Graduate Teaching Assistant at UNC Charlotte" },
+  { year: 2025, text: "Completed my Masters Degree, Completed my contract as Graduate Teaching Assistant at UNC Charlotte, Looking for Full Time Roles" },
 ];
