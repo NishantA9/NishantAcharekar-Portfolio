@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
-import HeroImg from "../../images/fe.jpg";
+import HeroImg from "../../images/1.png";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion";
