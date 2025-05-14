@@ -8,9 +8,7 @@ export const Bio = {
     "Web Developer",
     "Data Enthusiast",
   ],
-  description:
-    // "I am an enthusiastic and adaptable professional interested in continuous learning and personal growth. My journey has equipped me with a diverse skill set and a commitment to delivering excellence in every project. I thrive in dynamic environments, embracing new challenges with a positive attitude and a growth mindset. Currently, I am pursuing a Master's degree at UNC Charlotte and actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
-    "I am an adaptable and enthusiastic professional passionate about continuous learning and delivering high-quality results. My diverse skill set and commitment to excellence help me thrive in dynamic environments. Currently pursuing a Master’s degree at UNC Charlotte, I am actively seeking full-time roles where I can leverage my skills and contribute to impactful projects.",
+  description:"I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
   github: "https://github.com/NishantA9",
   resume:
     "https://drive.google.com/file/d/1dGLJ81LGLK4f5_1A4bD9OCyl8MEKzAjV/view?usp=sharing",
