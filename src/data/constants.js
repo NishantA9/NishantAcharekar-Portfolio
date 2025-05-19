@@ -11,7 +11,7 @@ export const Bio = {
   description:"I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/1dGLJ81LGLK4f5_1A4bD9OCyl8MEKzAjV/view?usp=sharing",
+    "https://drive.google.com/file/d/1TGoJjyfKxv3V3UkJCj_TvXzbtMGHUVc3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -355,7 +355,7 @@ export const experiences = [
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
-    desc: "Guided over 50 graduate students in programming and system design courses, boosting pass rates by 20%. Created instructional materials, organized 5+ technical workshops, and handled 30+ weekly queries to enhance engagement and academic performance.",
+    desc: "Guided 50+ students in programming and system design courses, leading to improved pass rates. Created instructional materials and organized 5+ technical workshops with the professor, driving 30+ weekly student inquiries and boosting engagement in programming courses. Reviewed UML diagrams, use cases, and flowcharts, and guided students on wireframing and user-focused design using Figma.",
     skills: [
       "Teaching Assistance",
       "Workshop Coordination",
@@ -363,6 +363,7 @@ export const experiences = [
       "Academic Support",
       "Curriculum Development",
       "System Design",
+      "Figma",
     ],
   },
   {
@@ -371,7 +372,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
-    desc: "Engineered Fin-DART for Punjab & Sind Bank, improving reporting efficiency by 25%. Automated workflows to cut manual effort by 40%, and integrated SQL Server Reporting Services to speed up CRUD operations by 30%.",
+    desc: "Engineered Fin-DART, a data archival solution for Punjab & Sind Bank, improving reporting efficiency by approximately 12% through optimized data retrieval workflows. Automated document export features (Word, Excel, PDF), reducing manual work by 20% and saving 5-6 hours per week. Integrated SQL Server Reporting Services, boosting CRUD efficiency and cutting data retrieval time by 15%.",
     skills: [
       "Oracle",
       "ASP.NET",
@@ -390,7 +391,7 @@ export const experiences = [
     role: "Web Development Intern",
     company: "Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
-    desc: "Programmed and deployed 2 NodeJS web applications, increasing user engagement by 30%. Conducted code reviews and performance optimization, reducing load times by 15%.",
+    desc: "Built a donation portal and task tracker using NodeJS, designing interface layouts and user flows in Figma to ensure a clean and seamless front-end experience. Enhanced frontend performance by reducing DOM updates and redundant data fetches for smoother user interactions.",
     skills: [
       "HTML",
       "NodeJS",
@@ -408,7 +409,7 @@ export const experiences = [
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions ",
     date: "Feb 2021 - Mar 2021",
-    desc: "Performed Python-based analytics on 10,000+ data points, improving business insights by 15%. Utilized Pandas, NumPy, Matplotlib, and Scikit-learn for data visualization and predictive analytics.",
+    desc: "Performed Python-based analytics on 10,000+ data points, enabling better business insights.",
     skills: [
       "Python",
       "Data Analysis",
@@ -428,7 +429,7 @@ export const experiences = [
     role: "Graphic Design Intern",
     company: "Rotaract Club of KC ",
     date: "Sep 2020 - Oct 2020",
-    desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement by 20%.",
+    desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement.",
     skills: [
       "Adobe Photoshop",
       "Adobe Illustrator",
