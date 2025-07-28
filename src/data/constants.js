@@ -372,7 +372,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://github.com/NishantA9/portfolio-images/blob/main/uncc_logo.png",
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
@@ -481,7 +481,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://github.com/NishantA9/portfolio-images/blob/main/uncc_logo.png",
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.90 GPA",
@@ -507,7 +507,7 @@ export const projects = [
     description:
       "A High Fidelity Prototype representing some unique and necessary changes in UNC Charlotte's Admissions & Financial Aid Website made in FIGMA.",
     image:
-      "https://github.com/NishantA9/Images/raw/main/Figma.png",
+      "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/UNCC_Figma.png",
     tags: [
       "Figma",
     ],
