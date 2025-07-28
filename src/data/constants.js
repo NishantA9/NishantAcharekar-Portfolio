@@ -780,7 +780,7 @@ export const projects = [
     description:
       "Chat Application with FireBase authentication, where user can chat with another user. An App Developed in Android Studio, Java as the language code",
     image:
-      "https://github.com/NishantA9/Images/raw/main/chat.png",
+      "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/chatapp.png",
     tags: ["Android Studio", "Java", "Axios", "Firebase", "Firestore", "FireBase Auth", "Gradle"],
     category: "android app",
     github: "https://github.com/NishantA9/Android-Chat-App",
