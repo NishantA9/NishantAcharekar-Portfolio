@@ -11,7 +11,7 @@ export const Bio = {
   description:"I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/1TGoJjyfKxv3V3UkJCj_TvXzbtMGHUVc3/view?usp=sharing",
+    "https://drive.google.com/file/d/16oa3zlMzkEFtvDdeIEQ1IqAfVgRbMMxu/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -23,9 +23,14 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React.Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "WordPress",
+        image:
+          "https://www.svgrepo.com/show/75595/wordpress.svg",
       },
       {
         name: "jQuery",
@@ -351,6 +356,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQEpOy9l6jJIHA/company-logo_200_200/company-logo_200_200/0/1656217280127/rebecca_everlene_trust_company_logo?e=1756339200&v=beta&t=nWQquMu7_mQlbQz2SDNslk4qGnan4cjRbBAUe22-SCs",
+    role: "Web Developer",
+    company: "Rebecca Everline Trust Company",
+    date: "Jul 2025 - Present",
+    desc: "Building educational pages for MEDKids – Strong Like Astronauts using WordPress, Figma, custom CSS/JS. Managing asset versioning and updates via GitHub; optimizing layout responsiveness and accessibility..",
+    skills: [
+      "Figma",
+      "WordPress",
+      "GitHub",
+      "Custom CSS/JS",
+      "Slack",
+      "Monday.com",
+    ],
+  },
+  {
+    id: 1,
     img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
@@ -367,7 +388,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://bfsi.eletsonline.com/wp-content/uploads/2018/05/nelito.jpg",
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
@@ -386,7 +407,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: "https://logodix.com/logo/501874.png",
     role: "Web Development Intern",
     company: "Sparks Foundation",
@@ -404,7 +425,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: "https://getmap.co.id/assets/img/divisions/getdesign.jpg",
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions ",
@@ -424,7 +445,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: "https://img.jagranjosh.com/images/2022/June/662022/27545183_565788393830264_1612251284821766020_n.png",
     role: "Graphic Design Intern",
     company: "Rotaract Club of KC ",
@@ -437,7 +458,7 @@ export const experiences = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     img: "https://github.com/NishantA9/Images/raw/main/FELOGO.png",
     role: "Streamer & Content Creator",
     company: "YouTube",
