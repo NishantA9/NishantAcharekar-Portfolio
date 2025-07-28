@@ -69,7 +69,7 @@ export const skills = [
       {
         name: "Three.js",
         image:
-          "https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png",
+          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/3js.png",
       },
       {
         name: "Tailwind CSS",
@@ -79,7 +79,7 @@ export const skills = [
       {
         name: "Web3",
         image:
-          "https://compile.blog/wp-content/uploads/2021/11/Web3-Icon-2.png",
+          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/web3.jpg",
       },
       {
         name: "REST API",
@@ -217,7 +217,7 @@ export const skills = [
       {
         name: "Gradle",
         image:
-          "https://www.jb51.cc/res/2021/12-11/09/4f2ac50b9a7c03041d705e13fb0963b6.jpeg",
+          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/gradle.png",
       },
       {
         name: "Jetpack Compose",
@@ -251,7 +251,7 @@ export const skills = [
       {
         name: "Tenserflow",
         image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/tensor.jpeg",
       },
       {
         name: "Keras",
@@ -356,7 +356,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/C560BAQEpOy9l6jJIHA/company-logo_200_200/company-logo_200_200/0/1656217280127/rebecca_everlene_trust_company_logo?e=1756339200&v=beta&t=nWQquMu7_mQlbQz2SDNslk4qGnan4cjRbBAUe22-SCs",
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
     role: "Web Developer",
     company: "Rebecca Everline Trust Company",
     date: "Jul 2025 - Present",
@@ -372,7 +372,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
+    img: "https://github.com/NishantA9/portfolio-images/blob/main/uncc_logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
@@ -459,7 +459,7 @@ export const experiences = [
   },
   {
     id: 6,
-    img: "https://github.com/NishantA9/Images/raw/main/FELOGO.png",
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/LOGO.png",
     role: "Streamer & Content Creator",
     company: "YouTube",
     date: "Dec 2016 - Present",
@@ -481,7 +481,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://github.com/NishantA9/Images/raw/main/UNCC.jpeg",
+    img: "https://github.com/NishantA9/portfolio-images/blob/main/uncc_logo.png",
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.90 GPA",
@@ -490,7 +490,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://github.com/NishantA9/Images/raw/main/UOM.jpeg",
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/univ_mum.jpg",
     school: "University of Mumbai ",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
@@ -549,7 +549,7 @@ export const projects = [
     description:
       "A Portfolio website made with React Js, Three Js, JavaScript, and CSS. It is a responsive website that has a 3D animation of my name. It has a contact form where users can contact me.",
     image:
-      "https://github.com/NishantA9/Images/raw/main/portfolio.png",
+      "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/Portfolio.png",
     tags: [
       "React Js",
       "Three Js",
@@ -568,7 +568,7 @@ export const projects = [
     description:
       "This project is a book collection application built with Node.js, Express, and PostgreSQL. The application allows users to add, view, edit, and delete books from their collection. Each book entry includes details like the ISBN, author, title, description, rating, and the date it was read. Additionally, the application fetches and displays book covers from the Open Library API.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/mannga.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/manga_kun.png",
     tags: [
       "Node Js",
       "Express Js",
@@ -592,7 +592,7 @@ export const projects = [
     description:
       "This project is built using the Internet Computer (IC) framework, leveraging Motoko for smart contracts and React for the frontend. The main functionality revolves around minting, listing, and transferring Non-Fungible Tokens (NFTs) in a decentralized manner.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/crypto.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/crypto.png",
     tags: [
       "Internet Computer",
       "React Js",
@@ -614,7 +614,7 @@ export const projects = [
     description:
       "It's a web application that allows users to create, display, and delete notes, much like a simplified version of Google Keep.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/keeper.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/keeper.png",
     tags: [
       "React Js",
       "NPM",
@@ -635,7 +635,7 @@ export const projects = [
     description:
       "A Collection of Front End Websites that are live and hosted. All the websites are made with various front-end technologies.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/frontend.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/webcollection.png",
     tags: [
       "React Js",
       "Web3",
@@ -662,7 +662,7 @@ export const projects = [
     description:
       "A Collection of Backend Projects which contains some Python Scripts and Java and C++ Project codes.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/backend.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/backend.png",
     tags: [
       "Python",
       "Java",
@@ -681,7 +681,7 @@ export const projects = [
     description:
     "A emotion Based Music AI application which captures your face and detects the emotion, according to the detected emotion it will recommend songs on youtube. Made with Python, uses Keras, CV2 and other models.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/emotionbased.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/emotionbasedmusicai.png",
     tags: ["Python", "CSS", "HTML", "CSS", "Keras", "PyTorch", "OpenCv", "Matplotlib", "Pandas", "Numpy", "Sklearn", "Data Analysis"],
     category: "machine learning",
     github: "https://github.com/NishantA9/Emotion-Based-Music-AI",
@@ -694,7 +694,7 @@ export const projects = [
     description:
     "This Project contains a Database of Patients and Doctors of a Dermatology Clinic. It has a User authentication and is run on a local server. It uses Jypter Notebook, Python and MySQL.",
     image:
-      "https://github.com/NishantA9/Images/raw/main/emr.jpg",
+      "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/emr.jpg",
     tags: [
       "MySQL",
       "Jupyter Notebook",
@@ -711,7 +711,7 @@ export const projects = [
     description:
     "This project demonstrates how to use the ImageAI library with the MobileNetV2 model for image classification. It involves setting up the environment, loading the pre-trained MobileNetV2 model, and classifying an image.",
     image:
-      "https://github.com/NishantA9/Images/raw/main/imageai.jpg",
+      "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/imageAi.jpg",
     tags: [
       "ImageAI",
       "Python",
@@ -728,7 +728,7 @@ export const projects = [
     description:
       "This project is built with Express JS, NodeJs, HTML, CSS & JS. It also uses OpenWeatherApi which calls and helps us to display the weather of that Specific location. So you need to go to OpenWeatherApi website and generate your own api key and paste it in app.js",
     image:
-    "https://github.com/NishantA9/Images/raw/main/weather.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/weather.png",
     tags: [
       "HTML",
       "CSS",
@@ -757,7 +757,7 @@ export const projects = [
     description:
     "Permalist is a to-do list application that allows users to organize tasks into different lists. Built with Express, EJS, and PostgreSQL, this project demonstrates how to create a full-stack application with CRUD functionalities. Users can create new lists, add items, edit existing items, and delete them.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/permalist.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/permalist.png",
     tags: [
       "HTML",
       "CSS",
@@ -793,7 +793,7 @@ export const projects = [
     description:
     "A Weather ForeCast App using JAVA and HTTPS (POSTMAN) in Android Studio. With Weather Api code",
     image:
-    "https://github.com/NishantA9/Images/raw/main/weatherapp.jpg",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/weatherapp.png",
     tags: ["Android Studio", "OpenWeatherAPI", "JAVA", "PostMan", "Axios", "Gradle"],
     category: "android app",
     github: "https://github.com/NishantA9/Weather-Forecast-App",
@@ -806,7 +806,7 @@ export const projects = [
     description:
     "A Simple ToDoList Project with Java made in Android Studio",
     image:
-    "https://github.com/NishantA9/Images/raw/main/todolist.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/todo.png",
     tags: ["Java", "Android Studio", "Gradle"],
     category: "android app",
     github: "https://github.com/NishantA9/ToDoList",
@@ -819,7 +819,7 @@ export const projects = [
     description:
     "A Calculator App using Java made in Android Studio",
     image:
-    "https://github.com/NishantA9/Images/raw/main/calc.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/calc.jpg",
     tags: ["Java", "Android Studio", "Gradle"],
     category: "android app",
     github: "https://github.com/NishantA9/Calculator-App",
@@ -832,7 +832,7 @@ export const projects = [
     description:
       "A android app made with Java and Firebase. This is a clone of Fast and Fitness App. Our App is also fitness app that has a login and signup page. It has a BMI calculator, a calorie calculator, and a workout plan.",
     image:
-    "https://github.com/NishantA9/Images/raw/main/fitness.png",
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/fastnfitness.png",
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
     github: "https://github.com/NishantA9/fastnfitness",
