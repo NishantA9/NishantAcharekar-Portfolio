@@ -11,7 +11,7 @@ export const Bio = {
   description:"I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/16oa3zlMzkEFtvDdeIEQ1IqAfVgRbMMxu/view?usp=sharing",
+    "https://drive.google.com/file/d/1_wmNR0XKpYZ4dgNeQjZNqj-CbVvVij5d/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
