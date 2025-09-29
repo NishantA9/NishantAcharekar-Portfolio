@@ -8,10 +8,10 @@ export const Bio = {
     "Web Developer",
     "Data Enthusiast",
   ],
-  description:"I’m a recent MS in IT grad from UNC Charlotte who loves building things that work well and look great. From frontend design with React and Figma to backend logic in NodeJS and Python, I enjoy mixing creativity with code. I’m now looking for full-time roles where I can learn, build, and make a difference.",
+  description:"I’m a recent MS in IT graduate from UNC Charlotte who loves turning ideas into solutions that work well and look great. I enjoy blending creativity with code, from frontend design in React and Figma to backend logic in NodeJS and Python. Along the way, I’ve built apps, dashboards, and analytics solutions with Python, SQL, Power BI, and Tableau across fintech, education, and transit projects. Outside work, I create YouTube content and write stories, combining tech with creativity to make insights engaging. I’m looking for full-time roles where I can keep learning, building, and making an impact.",
   github: "https://github.com/NishantA9",
   resume:
-    "https://drive.google.com/file/d/1_wmNR0XKpYZ4dgNeQjZNqj-CbVvVij5d/view?usp=sharing",
+    "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -30,7 +30,7 @@ export const skills = [
       {
         name: "WordPress",
         image:
-          "https://www.svgrepo.com/show/75595/wordpress.svg",
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzIxNzU5QiI+PHBhdGggZD0iTTIxLjQ2OSAxMmMwIDUuMjMtNC4yMzkgOS40NjktOS40NjkgOS40NjktNS4yMyAwLTkuNDY5LTQuMjM5LTkuNDY5LTkuNDY5IDAtNS4yMyA0LjIzOS05LjQ2OSA5LjQ2OS05LjQ2OSA1LjIzIDAgOS40NjkgNC4yMzkgOS40NjkgOS40Njl6bS0xMS42ODUgNi45OTJjMS4xNTkgMCAyLjI1LS4yMzQgMy4yNS0uNjU4bC0yLjc0Ni03Ljk4My0yLjg3NSA4LjM0OWMuNzc5LjE5NCAxLjU4MS4yOTIgMi4zNzEuMjkyem03LjMxMS0xLjM3M2MuNzI5LTEuMjI1IDEuMTQ4LTIuNjU0IDEuMTQ4LTQuMTgxIDAtMS4zOTgtLjM3NS0yLjcxMy0xLjAzNC0zLjg0NS0uNjM2LTEuMzc1LTEuMDM0LTIuNjAyLTEuMDM0LTQuMDA0IDAtMS41NTkuNTkzLTMuMDEgMS41NTktNC4xNzEtMS42NDctMS40MDctMy44My0yLjI2NC02LjItMi4yNjQtMy4wNjcgMC01Ljc5MSAxLjE4NS03Ljg0IDMuMTE3LjU5MyAwIC45OS4wNjMgMS40MDguMDYzIDIuMjk2IDAgNS44NTUtLjI4MSA1Ljg1NS0uMjgxIDEuMTg4LS4wNjMgMS4zMTMgMS42ODQuMTI1IDEuODEgMCAwLTEuMTg4LjEyNS0yLjUxNS4xODhsNy45ODMgMjMuNzY0IDQuNzk1LTE0LjQzNCAyLjMzOS02Ljk5MmMwIDAtMS4xODgtLjA2My0yLjUxNS0uMTg4LTEuMTU5LS4xMjUtMS4wMzQtMS44NzMuMTI1LTEuODEgMCAwIDMuNjIyLjI4MSA1Ljc5Mi4yODEgMi4yOTYgMCA1Ljg1NS0uMjgxIDU4NTUtLjI4MSAxLjE4OC0uMDYzIDEuMzEzIDEuNjg0LjEyNSAxLjgxIDAgMC0xLjE4OC4xMjUtMi41MTUuMTg4bC03LjkwOCAyMy41NDYgMi40NzEtMTAuNzEyYy4zNzUtMS42NDcuNzE5LTIuODEyIDEuMDM0LTMuNzc3em0tMTEuMDYzIDEuMzQybC02LjU1NC0xOS4wNDVjLTEuNjQ3IDEuMDA3LTMuMDM2IDIuNDA0LTQuMDEgNC4xMDktLjg3NSAxLjUyOC0xLjM3NSAzLjI1LTEuMzc1IDUuMDcgMCA0LjE0IDIuNjU0IDcuNjY0IDYuNDYxIDkuODY2em0tNi44NzUtMTEuNDY5Yy0uNjg3LTEuMzc1LTEuMDkzLTIuOTM4LTEuMDkzLTQuNTkzIDAtMy4wODkgMS41NTktNS44MSA0LjE0MS03LjM5OC0yLjQ2NSAxLjU1OS00LjE0MSA0LjM3My00LjE0MSA3LjU4IDAgNS4yMyA0LjIzOSA5LjQ2OSA5LjQ2OSA5LjQ2OSA1LjIzIDAgOS40NjktNC4yMzkgOS40NjktOS40Njl6bS04LjM0OC01LjIzYzAgMS4wNjMuNjU2IDEuNjg0IDEuNzE5IDEuNjg0czEuNzE5LS42MjEgMS43MTktMS42ODQtLjY1Ni0xLjY4NC0xLjcxOS0xLjY4NC0xLjcxOS42MjEtMS43MTkgMS42ODR6Ii8+PC9zdmc+",
       },
       {
         name: "jQuery",
@@ -345,6 +345,16 @@ export const skills = [
           "https://img.icons8.com/?size=100&id=cAVP5AOANxnf&format=png&color=000000",
       },
       {
+        name: "Power BI",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=",
+      },
+        {
+        name: "Tableau",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=",
+      },
+        {
         name: "Canva",
         image:
           "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
@@ -360,10 +370,11 @@ export const experiences = [
     role: "Web Developer",
     company: "Rebecca Everline Trust Company",
     date: "Jul 2025 - Present",
-    desc: "Building educational pages for MEDKids – Strong Like Astronauts using WordPress, Figma, custom CSS/JS. Managing asset versioning and updates via GitHub; optimizing layout responsiveness and accessibility..",
+    desc: "Built educational pages for MEDKids Strong Like Astronauts using WordPress, Figma, and custom CSS/JS. Managed asset versioning and updates via GitHub, optimizing layout responsiveness and accessibility. Contributed to Landmarks transit data project, standardizing bus stop datasets for Power BI analysis.",
     skills: [
       "Figma",
       "WordPress",
+      "Power BI",
       "GitHub",
       "Custom CSS/JS",
       "Slack",
@@ -433,6 +444,7 @@ export const experiences = [
     desc: "Performed Python-based analytics on 10,000+ data points, enabling better business insights.",
     skills: [
       "Python",
+      "Tableau",
       "Data Analysis",
       "Data Visualization",
       "Data Cleansing",
