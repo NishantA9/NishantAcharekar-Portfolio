@@ -1,3 +1,9 @@
+# My Portfolio
+
+So this project was made by me. I followed some YouTube tutorials and went through some React documentation to work and get this portfolio done. To check the live version, here is the link: https://nishantacharekarportfolio.netlify.app/ 
+
+Now, below is some normal documentation that I don't want to edit and keep as a template.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
