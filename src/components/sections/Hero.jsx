@@ -135,8 +135,8 @@ const ResumeButton = styled.a`
     appearance: button;
     text-decoration: none;
 
-    width: 95%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 240px;
     text-align: center;
     padding: 16px 0;
 
@@ -162,6 +162,24 @@ const ResumeButton = styled.a`
         padding: 12px 0;
         font-size: 18px;
     }
+`;
+
+const ResumeButtonRow = styled.div`
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+
+  @media (max-width: 960px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 12px;
+  }
 `;
 
 const ImgWrapper = styled.div`
@@ -232,9 +250,23 @@ const Hero = () => {
                         <motion.div {...headContentAnimation}>
                         <SubTitle>{Bio.description}</SubTitle>
                         </motion.div>
+                            <ResumeButtonRow>
+                                  <ResumeButton
+                                    href={Bio.resumeSDE || Bio.resume}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Resume (SDE)
+                                  </ResumeButton>
 
-                        <ResumeButton href={Bio.resume} target="_blank">
-                        Check Resume</ResumeButton>
+                                  <ResumeButton
+                                    href={Bio.resumeData || Bio.resume}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    Resume (Data)
+                                  </ResumeButton>
+                            </ResumeButtonRow>
                     </HeroLeftContainer>
                     <HeroRightContainer>
 

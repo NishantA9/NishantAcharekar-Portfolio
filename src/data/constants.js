@@ -2,28 +2,374 @@ export const Bio = {
   name: "Nishant Acharekar",
   roles: [
     "Software Engineer",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "UI/UX Designer",
-    "Web Developer",
-    "Data Enthusiast",
+    "Full-Stack Developer",
+    "Frontend & UI/UX Developer",
+    "Data & BI (SQL, Power BI)",
   ],
-  description:"I’m a recent MS in IT graduate from UNC Charlotte who loves turning ideas into solutions that work well and look great. I enjoy blending creativity with code, from frontend design in React and Figma to backend logic in NodeJS and Python. Along the way, I’ve built apps, dashboards, and analytics solutions with Python, SQL, Power BI, and Tableau across fintech, education, and transit projects. Outside work, I create YouTube content and write stories, combining tech with creativity to make insights engaging. I’m looking for full-time roles where I can keep learning, building, and making an impact.",
+  description: 
+      "Software Engineer with experience building full-stack and frontend web applications using ASP.NET MVC, C#, React, JavaScript, and SQL. I’ve worked on enterprise systems and nonprofit platforms, focusing on data-driven features, reporting workflows, and user-friendly interfaces. I also have hands-on experience with SQL-based data validation and dashboards in Power BI/Tableau. Outside of work, I create YouTube content as a creative outlet.",
   github: "https://github.com/NishantA9",
-  resume:
-    "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
+  // resume:
+  //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/14LGPBinj7YFSVyyXJq8m8qijmK2R93zK/view?usp=sharing",
+  resumeData: "https://drive.google.com/file/d/1KVLuR0ob3XPT5rJFHROjyyrxme2f-vrH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
   youtube: "https://www.youtube.com/channel/UCut0FMt4ec_60Vzw149jdiQ",
 };
 
+// export const skills = [
+//   {
+//     title: "Frontend",
+//     skills: [
+//       {
+//         name: "React.Js",
+//         image:
+//           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+//       },
+//       {
+//         name: "WordPress",
+//         image:
+//           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzIxNzU5QiI+PHBhdGggZD0iTTIxLjQ2OSAxMmMwIDUuMjMtNC4yMzkgOS40NjktOS40NjkgOS40NjktNS4yMyAwLTkuNDY5LTQuMjM5LTkuNDY5LTkuNDY5IDAtNS4yMyA0LjIzOS05LjQ2OSA5LjQ2OS05LjQ2OSA1LjIzIDAgOS40NjkgNC4yMzkgOS40NjkgOS40Njl6bS0xMS42ODUgNi45OTJjMS4xNTkgMCAyLjI1LS4yMzQgMy4yNS0uNjU4bC0yLjc0Ni03Ljk4My0yLjg3NSA4LjM0OWMuNzc5LjE5NCAxLjU4MS4yOTIgMi4zNzEuMjkyem03LjMxMS0xLjM3M2MuNzI5LTEuMjI1IDEuMTQ4LTIuNjU0IDEuMTQ4LTQuMTgxIDAtMS4zOTgtLjM3NS0yLjcxMy0xLjAzNC0zLjg0NS0uNjM2LTEuMzc1LTEuMDM0LTIuNjAyLTEuMDM0LTQuMDA0IDAtMS41NTkuNTkzLTMuMDEgMS41NTktNC4xNzEtMS42NDctMS40MDctMy44My0yLjI2NC02LjItMi4yNjQtMy4wNjcgMC01Ljc5MSAxLjE4NS03Ljg0IDMuMTE3LjU5MyAwIC45OS4wNjMgMS40MDguMDYzIDIuMjk2IDAgNS44NTUtLjI4MSA1Ljg1NS0uMjgxIDEuMTg4LS4wNjMgMS4zMTMgMS42ODQuMTI1IDEuODEgMCAwLTEuMTg4LjEyNS0yLjUxNS4xODhsNy45ODMgMjMuNzY0IDQuNzk1LTE0LjQzNCAyLjMzOS02Ljk5MmMwIDAtMS4xODgtLjA2My0yLjUxNS0uMTg4LTEuMTU5LS4xMjUtMS4wMzQtMS44NzMuMTI1LTEuODEgMCAwIDMuNjIyLjI4MSA1Ljc5Mi4yODEgMi4yOTYgMCA1Ljg1NS0uMjgxIDU4NTUtLjI4MSAxLjE4OC0uMDYzIDEuMzEzIDEuNjg0LjEyNSAxLjgxIDAgMC0xLjE4OC4xMjUtMi41MTUuMTg4bC03LjkwOCAyMy41NDYgMi40NzEtMTAuNzEyYy4zNzUtMS42NDcuNzE5LTIuODEyIDEuMDM0LTMuNzc3em0tMTEuMDYzIDEuMzQybC02LjU1NC0xOS4wNDVjLTEuNjQ3IDEuMDA3LTMuMDM2IDIuNDA0LTQuMDEgNC4xMDktLjg3NSAxLjUyOC0xLjM3NSAzLjI1LTEuMzc1IDUuMDcgMCA0LjE0IDIuNjU0IDcuNjY0IDYuNDYxIDkuODY2em0tNi44NzUtMTEuNDY5Yy0uNjg3LTEuMzc1LTEuMDkzLTIuOTM4LTEuMDkzLTQuNTkzIDAtMy4wODkgMS41NTktNS44MSA0LjE0MS03LjM5OC0yLjQ2NSAxLjU1OS00LjE0MSA0LjM3My00LjE0MSA3LjU4IDAgNS4yMyA0LjIzOSA5LjQ2OSA5LjQ2OSA5LjQ2OSA1LjIzIDAgOS40NjktNC4yMzkgOS40NjktOS40Njl6bS04LjM0OC01LjIzYzAgMS4wNjMuNjU2IDEuNjg0IDEuNzE5IDEuNjg0czEuNzE5LS42MjEgMS43MTktMS42ODQtLjY1Ni0xLjY4NC0xLjcxOS0xLjY4NC0xLjcxOS42MjEtMS43MTkgMS42ODR6Ii8+PC9zdmc+",
+//       },
+//       {
+//         name: "jQuery",
+//         image:
+//           "https://img.icons8.com/?size=100&id=40253&format=png&color=0075F8",
+//       },
+//       {
+//         name: "EJS",
+//         image:
+//           "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000",
+//       },
+//       {
+//         name: "D3Js",
+//         image:
+//           "https://img.icons8.com/?size=100&id=e5gqxaD6zAyv&format=png&color=000000",
+//       },
+//       {
+//         name: "HTML",
+//         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+//       },
+//       {
+//         name: "CSS",
+//         image:
+//           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+//       },
+//       {
+//         name: "JavaScript",
+//         image:
+//           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+//       },
+//       {
+//         name: "Bootstrap",
+//         image:
+//           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+//       },
+//       {
+//         name: "Three.js",
+//         image:
+//           "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/3js.png",
+//       },
+//       {
+//         name: "Tailwind CSS",
+//         image:
+//           "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
+//       },
+//       {
+//         name: "Web3",
+//         image:
+//           "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/web3.jpg",
+//       },
+//       {
+//         name: "REST API",
+//         image:
+//           "https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Backend",
+//     skills: [
+//       {
+//         name: "Postgresql",
+//         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+//       },
+//       {
+//         name: "Express Js",
+//         image:
+//         "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
+//       },
+//       {
+//         name: "ASP.NET",
+//         image: "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000",
+//       },
+//       {
+//         name: "Node Js",
+//         image: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+//       },
+//       {
+//         name: "Flask",
+//         image:
+//           "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
+//       },
+//       {
+//         name: "MySQL",
+//         image:
+//           "https://img.icons8.com/?size=100&id=qGUfLiYi1bRN&format=png&color=000000",
+//       },
+//       {
+//         name: "MongoDB",
+//         image:
+//           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+//       },
+//       {
+//         name: "Oracle",
+//         image:
+//           "https://img.icons8.com/?size=100&id=39913&format=png&color=000000",
+//       },
+      
+//       {
+//         name: "Bash",
+//         image:
+//           "https://icon-library.com/images/bash-icon/bash-icon-5.jpg",
+//       },
+//       {
+//         name: "NoSQL",
+//         image:
+//           "https://dsaihub.com/wp-content/uploads/2023/07/NoSQL.jpg",
+//       },
+//       {
+//         name: "NFT Minting",
+//         image:
+//           "https://img.icons8.com/?size=100&id=Ivt3cxSmj3jW&format=png&color=000000",
+//       },
+//       {
+//         name: "C++",
+//         image:
+//           "https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000",
+//       },
+//       {
+//         name: "C#",
+//         image:
+//           "https://img.icons8.com/?size=100&id=mhwmyz1eu7T5&format=png&color=000000",
+//       },
+      
+//     ],
+//   },
+//   {
+//     title: "DevOps",
+//     skills: [
+//       {
+//         name: "AWS",
+//         image:
+//           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+//       },
+//       {
+//         name: "Git",
+//         image:
+//           "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+//       },
+//        {
+//         name: "GitHub",
+//         image:
+//           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+//       },
+//       {
+//         name: "NPM",
+//         image:
+//           "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
+//       },
+//       {
+//         name: "PostMan",
+//         image:
+//           "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
+//       },
+//       {
+//         name: "ViteJs",
+//         image: "https://blog.codeinside.eu/assets/md-images/2023-02-11/vitejs.png",
+//       },
+//       {
+//         name: "Ubantu",
+//         image:
+//           "https://img.icons8.com/?size=100&id=63208&format=png&color=000000",
+//       },
+//       {
+//         name: "Putty",
+//         image:
+//           "https://img.icons8.com/?size=100&id=duiaqXXFFuge&format=png&color=000000",
+//       },
+//       {
+//         name: "WireShark",
+//         image:
+//           "https://img.icons8.com/?size=100&id=rOHcpTUtCTjr&format=png&color=005CFF",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Android",
+//     skills: [
+//       {
+//         name: "Java",
+//         image:
+//           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+//       },
+//       {
+//         name: "Gradle",
+//         image:
+//           "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/gradle.png",
+//       },
+//       {
+//         name: "Jetpack Compose",
+//         image:
+//           "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+//       },
+//       {
+//         name: "Firebase",
+//         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+//       },
+//       {
+//         name: "XML",
+//         image:
+//           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+//       },
+//       {
+//         name: "Android Studio",
+//         image:
+//           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Machine Learning",
+//     skills: [
+//       {
+//         name: "Python",
+//         image:
+//           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+//       },
+//       {
+//         name: "Tenserflow",
+//         image:
+//           "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/tensor.jpeg",
+//       },
+//       {
+//         name: "Keras",
+//         image:
+//           "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+//       },
+//       {
+//         name: "Jupyter",
+//         image:
+//           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+//       },
+//       {
+//         name: "Numpy",
+//         image:
+//           "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000",
+//       },
+//       {
+//         name: "Pandas",
+//         image:
+//           "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
+//       },
+//       {
+//         name: "Matplotlib",
+//         image:
+//           "https://hadrienj.github.io/assets/images/icons/matplotlib.png",
+//       },
+//       {
+//         name: "Pytorch",
+//         image:
+//           "https://img.icons8.com/?size=100&id=O6SWwpPIM0GB&format=png&color=000000",
+//       },
+//       {
+//         name: "OpenCV",
+//         image:
+//           "https://img.icons8.com/?size=100&id=bpip0gGiBLT1&format=png&color=000000",
+//       },
+//       {
+//         name: "Sk Learn Kit",
+//         image:
+//           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+//       },
+//       {
+//         name: "Anaconda",
+//         image:
+//           "https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Others",
+//     skills: [
+//       {
+//         name: "Adobe Photoshop",
+//         image:
+//           "https://img.icons8.com/?size=100&id=13677&format=png&color=000000",
+//       },
+    
+//       {
+//         name: "Netlify",
+//         image:
+//           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+//       },
+//       {
+//         name: "VS Code",
+//         image:
+//           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+//       },
+//       {
+//         name: "Adobe Premiere Pro",
+//         image:
+//           "https://img.icons8.com/?size=100&id=e57Y1CnsOasB&format=png&color=000000",
+//       },
+//       {
+//         name: "Adobe After Effects",
+//         image:
+//         "https://img.icons8.com/?size=100&id=PjwYNsHHjpKj&format=png&color=000000",
+//       },
+//       {
+//         name: "Unity",
+//         image:
+//           "https://img.icons8.com/?size=100&id=26029&format=png&color=003978",
+//       },
+//       {
+//         name: "Figma",
+//         image:
+//           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+//       },
+//       {
+//         name: "Adobe Lightroom",
+//         image:
+//           "https://img.icons8.com/?size=100&id=cAVP5AOANxnf&format=png&color=000000",
+//       },
+//       {
+//         name: "Power BI",
+//         image:
+//           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=",
+//       },
+//         {
+//         name: "Tableau",
+//         image:
+//           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0iIzNBNTk5OCI+PHBhdGggZD0iTTI1IDJDMTIuMzE4IDIgMiAxMi4zMTggMiAyNXMxMC4zMTggMjMgMjMgMjMgMjMtMTAuMzE4IDIzLTIzUzM3LjY4MiAyIDI1IDJ6bTAgNDEuM2MtMTAuMTExIDAtMTguMy04LjE4OS0xOC4zLTE4LjNTMTQuODg5IDYuNyAyNSA2LjcgNDMuMyAxNC44ODkgNDMuMyAyNSAzNS4xMTEgNDMuMyAyNSA0My4zeiIvPjxyZWN0IHg9IjIzLjIiIHk9IjE0LjMiIHdpZHRoPSIzLjYiIGhlaWdodD0iMjEuNCIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE0LjMiIHk9IjIzLjIiIHdpZHRoPSIyMS40IiBoZWlnaHQ9IjMuNiIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE5LjEiIHk9IjE2IiB3aWR0aD0iMTEuOCIgaGVpZ2h0PSIxLjgiIGZpbGw9IiNGRkY5RkYiLz48cmVjdCB4PSIyNC4xIiB5PSIxOS4xIiB3aWR0aD0iMS44IiBoZWlnaHQ9IjExLjgiIGZpbGw9IiNGRkY5RkYiLz48L3N2Zz4=",
+//       },
+//         {
+//         name: "Canva",
+//         image:
+//           "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
+//       },
+//     ],
+//   },
+// ];
+
 export const skills = [
   {
     title: "Frontend",
     skills: [
       {
-        name: "React.Js",
+        name: "React.js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -32,25 +378,7 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzIxNzU5QiI+PHBhdGggZD0iTTIxLjQ2OSAxMmMwIDUuMjMtNC4yMzkgOS40NjktOS40NjkgOS40NjktNS4yMyAwLTkuNDY5LTQuMjM5LTkuNDY5LTkuNDY5IDAtNS4yMyA0LjIzOS05LjQ2OSA5LjQ2OS05LjQ2OSA1LjIzIDAgOS40NjkgNC4yMzkgOS40NjkgOS40Njl6bS0xMS42ODUgNi45OTJjMS4xNTkgMCAyLjI1LS4yMzQgMy4yNS0uNjU4bC0yLjc0Ni03Ljk4My0yLjg3NSA4LjM0OWMuNzc5LjE5NCAxLjU4MS4yOTIgMi4zNzEuMjkyem03LjMxMS0xLjM3M2MuNzI5LTEuMjI1IDEuMTQ4LTIuNjU0IDEuMTQ4LTQuMTgxIDAtMS4zOTgtLjM3NS0yLjcxMy0xLjAzNC0zLjg0NS0uNjM2LTEuMzc1LTEuMDM0LTIuNjAyLTEuMDM0LTQuMDA0IDAtMS41NTkuNTkzLTMuMDEgMS41NTktNC4xNzEtMS42NDctMS40MDctMy44My0yLjI2NC02LjItMi4yNjQtMy4wNjcgMC01Ljc5MSAxLjE4NS03Ljg0IDMuMTE3LjU5MyAwIC45OS4wNjMgMS40MDguMDYzIDIuMjk2IDAgNS44NTUtLjI4MSA1Ljg1NS0uMjgxIDEuMTg4LS4wNjMgMS4zMTMgMS42ODQuMTI1IDEuODEgMCAwLTEuMTg4LjEyNS0yLjUxNS4xODhsNy45ODMgMjMuNzY0IDQuNzk1LTE0LjQzNCAyLjMzOS02Ljk5MmMwIDAtMS4xODgtLjA2My0yLjUxNS0uMTg4LTEuMTU5LS4xMjUtMS4wMzQtMS44NzMuMTI1LTEuODEgMCAwIDMuNjIyLjI4MSA1Ljc5Mi4yODEgMi4yOTYgMCA1Ljg1NS0uMjgxIDU4NTUtLjI4MSAxLjE4OC0uMDYzIDEuMzEzIDEuNjg0LjEyNSAxLjgxIDAgMC0xLjE4OC4xMjUtMi41MTUuMTg4bC03LjkwOCAyMy41NDYgMi40NzEtMTAuNzEyYy4zNzUtMS42NDcuNzE5LTIuODEyIDEuMDM0LTMuNzc3em0tMTEuMDYzIDEuMzQybC02LjU1NC0xOS4wNDVjLTEuNjQ3IDEuMDA3LTMuMDM2IDIuNDA0LTQuMDEgNC4xMDktLjg3NSAxLjUyOC0xLjM3NSAzLjI1LTEuMzc1IDUuMDcgMCA0LjE0IDIuNjU0IDcuNjY0IDYuNDYxIDkuODY2em0tNi44NzUtMTEuNDY5Yy0uNjg3LTEuMzc1LTEuMDkzLTIuOTM4LTEuMDkzLTQuNTkzIDAtMy4wODkgMS41NTktNS44MSA0LjE0MS03LjM5OC0yLjQ2NSAxLjU1OS00LjE0MSA0LjM3My00LjE0MSA3LjU4IDAgNS4yMyA0LjIzOSA5LjQ2OSA5LjQ2OSA5LjQ2OSA1LjIzIDAgOS40NjktNC4yMzkgOS40NjktOS40Njl6bS04LjM0OC01LjIzYzAgMS4wNjMuNjU2IDEuNjg0IDEuNzE5IDEuNjg0czEuNzE5LS42MjEgMS43MTktMS42ODQtLjY1Ni0xLjY4NC0xLjcxOS0xLjY4NC0xLjcxOS42MjEtMS43MTkgMS42ODR6Ii8+PC9zdmc+",
       },
-      {
-        name: "jQuery",
-        image:
-          "https://img.icons8.com/?size=100&id=40253&format=png&color=0075F8",
-      },
-      {
-        name: "EJS",
-        image:
-          "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000",
-      },
-      {
-        name: "D3Js",
-        image:
-          "https://img.icons8.com/?size=100&id=e5gqxaD6zAyv&format=png&color=000000",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
+      { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
       {
         name: "CSS",
         image:
@@ -66,396 +394,260 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      {
-        name: "Three.js",
-        image:
-          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/3js.png",
-      },
-      {
-        name: "Tailwind CSS",
-        image:
-          "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
-      },
-      {
-        name: "Web3",
-        image:
-          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/web3.jpg",
-      },
-      {
-        name: "REST API",
-        image:
-          "https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png",
-      },
+      { name: "Tailwind CSS", image: "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000" },
+      { name: "jQuery", image: "https://img.icons8.com/?size=100&id=40253&format=png&color=0075F8" },
+      { name: "EJS", image: "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000" },
+      { name: "REST APIs", image: "https://d12m9erqbesehq.cloudfront.net/wp-content/uploads/2016/04/30152042/event-smart-rest-api.png" },
+      { name: "Figma", image: "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png" },
     ],
   },
+
   {
     title: "Backend",
     skills: [
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "Express Js",
-        image:
-        "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
-      },
-      {
-        name: "ASP.NET",
-        image: "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000",
-      },
-      {
-        name: "Node Js",
-        image: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-      },
-      {
-        name: "Flask",
-        image:
-          "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://img.icons8.com/?size=100&id=qGUfLiYi1bRN&format=png&color=000000",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Oracle",
-        image:
-          "https://img.icons8.com/?size=100&id=39913&format=png&color=000000",
-      },
-      
-      {
-        name: "Bash",
-        image:
-          "https://icon-library.com/images/bash-icon/bash-icon-5.jpg",
-      },
-      {
-        name: "NoSQL",
-        image:
-          "https://dsaihub.com/wp-content/uploads/2023/07/NoSQL.jpg",
-      },
-      {
-        name: "NFT Minting",
-        image:
-          "https://img.icons8.com/?size=100&id=Ivt3cxSmj3jW&format=png&color=000000",
-      },
-      {
-        name: "C++",
-        image:
-          "https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000",
-      },
-      {
-        name: "C#",
-        image:
-          "https://img.icons8.com/?size=100&id=mhwmyz1eu7T5&format=png&color=000000",
-      },
-      
+      { name: "Node.js", image: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" },
+      { name: "Express.js", image: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000" },
+      { name: "ASP.NET", image: "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000" },
+      { name: "PostgreSQL", image: "https://www.postgresql.org/media/img/about/press/elephant.png" },
+      { name: "SQL Server", image: "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" },
+      { name: "MySQL", image: "https://img.icons8.com/?size=100&id=qGUfLiYi1bRN&format=png&color=000000" },
+      { name: "Oracle", image: "https://img.icons8.com/?size=100&id=39913&format=png&color=000000" },
+      { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" },
+      { name: "Flask", image: "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000" },
+      { name: "C#", image: "https://img.icons8.com/?size=100&id=mhwmyz1eu7T5&format=png&color=000000" },
+      { name: "C++", image: "https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000" },
     ],
   },
+
+  {
+    title: "Data & BI",
+    skills: [
+      { name: "SQL", image: "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" },
+      { name: "Power BI", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=" },
+      { name: "Tableau", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0iIzNBNTk5OCI+PHBhdGggZD0iTTI1IDJDMTIuMzE4IDIgMiAxMi4zMTggMiAyNXMxMC4zMTggMjMgMjMgMjMgMjMtMTAuMzE4IDIzLTIzUzM3LjY4MiAyIDI1IDJ6bTAgNDEuM2MtMTAuMTExIDAtMTguMy04LjE4OS0xOC4zLTE4LjNTMTQuODg5IDYuNyAyNSA2LjcgNDMuMyAxNC44ODkgNDMuMyAyNSAzNS4xMTEgNDMuMyAyNSA0My4zeiIvPjxyZWN0IHg9IjIzLjIiIHk9IjE0LjMiIHdpZHRoPSIzLjYiIGhlaWdodD0iMjEuNCIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE0LjMiIHk9IjIzLjIiIHdpZHRoPSIyMS40IiBoZWlnaHQ9IjMuNiIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE5LjEiIHk9IjE2IiB3aWR0aD0iMTEuOCIgaGVpZ2h0PSIxLjgiIGZpbGw9IiNGRkY5RkYiLz48cmVjdCB4PSIyNC4xIiB5PSIxOS4xIiB3aWR0aD0iMS44IiBoZWlnaHQ9IjExLjgiIGZpbGw9IiNGRkY5RkYiLz48L3N2Zz4=" },
+      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { name: "Pandas", image: "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000" },
+      { name: "NumPy", image: "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000" },
+    ],
+  },
+
   {
     title: "DevOps",
     skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Git",
-        image:
-          "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
-      },
-       {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "NPM",
-        image:
-          "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
-      },
-      {
-        name: "PostMan",
-        image:
-          "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
-      },
-      {
-        name: "ViteJs",
-        image: "https://blog.codeinside.eu/assets/md-images/2023-02-11/vitejs.png",
-      },
-      {
-        name: "Ubantu",
-        image:
-          "https://img.icons8.com/?size=100&id=63208&format=png&color=000000",
-      },
-      {
-        name: "Putty",
-        image:
-          "https://img.icons8.com/?size=100&id=duiaqXXFFuge&format=png&color=000000",
-      },
-      {
-        name: "WireShark",
-        image:
-          "https://img.icons8.com/?size=100&id=rOHcpTUtCTjr&format=png&color=005CFF",
-      },
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Gradle",
-        image:
-          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/gradle.png",
-      },
-      {
-        name: "Jetpack Compose",
-        image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Tenserflow",
-        image:
-          "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/tensor.jpeg",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Numpy",
-        image:
-          "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000",
-      },
-      {
-        name: "Pandas",
-        image:
-          "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://hadrienj.github.io/assets/images/icons/matplotlib.png",
-      },
-      {
-        name: "Pytorch",
-        image:
-          "https://img.icons8.com/?size=100&id=O6SWwpPIM0GB&format=png&color=000000",
-      },
-      {
-        name: "OpenCV",
-        image:
-          "https://img.icons8.com/?size=100&id=bpip0gGiBLT1&format=png&color=000000",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-      {
-        name: "Anaconda",
-        image:
-          "https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000",
-      },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Adobe Photoshop",
-        image:
-          "https://img.icons8.com/?size=100&id=13677&format=png&color=000000",
-      },
-    
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Adobe Premiere Pro",
-        image:
-          "https://img.icons8.com/?size=100&id=e57Y1CnsOasB&format=png&color=000000",
-      },
-      {
-        name: "Adobe After Effects",
-        image:
-        "https://img.icons8.com/?size=100&id=PjwYNsHHjpKj&format=png&color=000000",
-      },
-      {
-        name: "Unity",
-        image:
-          "https://img.icons8.com/?size=100&id=26029&format=png&color=003978",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
-      {
-        name: "Adobe Lightroom",
-        image:
-          "https://img.icons8.com/?size=100&id=cAVP5AOANxnf&format=png&color=000000",
-      },
-      {
-        name: "Power BI",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=",
-      },
-        {
-        name: "Tableau",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0iIzNBNTk5OCI+PHBhdGggZD0iTTI1IDJDMTIuMzE4IDIgMiAxMi4zMTggMiAyNXMxMC4zMTggMjMgMjMgMjMgMjMtMTAuMzE4IDIzLTIzUzM3LjY4MiAyIDI1IDJ6bTAgNDEuM2MtMTAuMTExIDAtMTguMy04LjE4OS0xOC4zLTE4LjNTMTQuODg5IDYuNyAyNSA2LjcgNDMuMyAxNC44ODkgNDMuMyAyNSAzNS4xMTEgNDMuMyAyNSA0My4zeiIvPjxyZWN0IHg9IjIzLjIiIHk9IjE0LjMiIHdpZHRoPSIzLjYiIGhlaWdodD0iMjEuNCIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE0LjMiIHk9IjIzLjIiIHdpZHRoPSIyMS40IiBoZWlnaHQ9IjMuNiIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE5LjEiIHk9IjE2IiB3aWR0aD0iMTEuOCIgaGVpZ2h0PSIxLjgiIGZpbGw9IiNGRkY5RkYiLz48cmVjdCB4PSIyNC4xIiB5PSIxOS4xIiB3aWR0aD0iMS44IiBoZWlnaHQ9IjExLjgiIGZpbGw9IiNGRkY5RkYiLz48L3N2Zz4=",
-      },
-        {
-        name: "Canva",
-        image:
-          "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
-      },
+      { name: "AWS", image: "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png" },
+      { name: "Git", image: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000" },
+      { name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+      { name: "Postman", image: "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" },
+      { name: "NPM", image: "https://img.icons8.com/?size=100&id=24895&format=png&color=000000" },
+      { name: "Ubuntu", image: "https://img.icons8.com/?size=100&id=63208&format=png&color=000000" },
     ],
   },
 ];
+
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
+//     role: "Web Developer",
+//     company: "Rebecca Everline Trust Company",
+//     date: "Jul 2025 - Present",
+//     desc: "Built educational pages for MEDKids Strong Like Astronauts using WordPress, Figma, and custom CSS/JS. Managed asset versioning and updates via GitHub, optimizing layout responsiveness and accessibility. Contributed to Landmarks transit data project, standardizing bus stop datasets for Power BI analysis.",
+//     skills: [
+//       "Figma",
+//       "WordPress",
+//       "Power BI",
+//       "GitHub",
+//       "Custom CSS/JS",
+//       "Slack",
+//       "Monday.com",
+//     ],
+//   },
+//   {
+//     id: 1,
+//     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
+//     role: "Graduate Teaching Assistant",
+//     company: "UNC Charlotte",
+//     date: "Aug 2024 - May 2025",
+//     desc: "Guided 50+ students in programming and system design courses, leading to improved pass rates. Created instructional materials and organized 5+ technical workshops with the professor, driving 30+ weekly student inquiries and boosting engagement in programming courses. Reviewed UML diagrams, use cases, and flowcharts, and guided students on wireframing and user-focused design using Figma.",
+//     skills: [
+//       "Teaching Assistance",
+//       "Workshop Coordination",
+//       "Grading",
+//       "Academic Support",
+//       "Curriculum Development",
+//       "System Design",
+//       "Figma",
+//     ],
+//   },
+//   {
+//     id: 2,
+//     img: "https://bfsi.eletsonline.com/wp-content/uploads/2018/05/nelito.jpg",
+//     role: "Software Engineer",
+//     company: "Nelito Systems Pvt. Ltd",
+//     date: "Jul 2022 - Jul 2023",
+//     desc: "Engineered Fin-DART, a data archival solution for Punjab & Sind Bank, improving reporting efficiency by approximately 12% through optimized data retrieval workflows. Automated document export features (Word, Excel, PDF), reducing manual work by 20% and saving 5-6 hours per week. Integrated SQL Server Reporting Services, boosting CRUD efficiency and cutting data retrieval time by 15%.",
+//     skills: [
+//       "Oracle",
+//       "ASP.NET",
+//       "C#",
+//       "CSHTML",
+//       "HTML",
+//       "CSS",
+//       "Bootstrap",
+//       "JavaScript",
+//       "MySql",
+//     ],
+//   },
+//   {
+//     id: 3,
+//     img: "https://logodix.com/logo/501874.png",
+//     role: "Web Development Intern",
+//     company: "Sparks Foundation",
+//     date: "Oct 2021 - Nov 2021",
+//     desc: "Built a donation portal and task tracker using NodeJS, designing interface layouts and user flows in Figma to ensure a clean and seamless front-end experience. Enhanced frontend performance by reducing DOM updates and redundant data fetches for smoother user interactions.",
+//     skills: [
+//       "HTML",
+//       "NodeJS",
+//       "CSS",
+//       "JavaScript",
+//       "PHP",
+//       "RazorPay",
+//       "Bootstrap",
+//       "Git",
+//     ],
+//   },
+//   {
+//     id: 4,
+//     img: "https://getmap.co.id/assets/img/divisions/getdesign.jpg",
+//     role: "Data Scientist Intern",
+//     company: "Dezignolics Web & Software Solutions ",
+//     date: "Feb 2021 - Mar 2021",
+//     desc: "Performed Python-based analytics on 10,000+ data points, enabling better business insights.",
+//     skills: [
+//       "Python",
+//       "Tableau",
+//       "Data Analysis",
+//       "Data Visualization",
+//       "Data Cleansing",
+//       "Predictive Analytics",
+//       "Jupyter Notebook",
+//       "Pandas",
+//       "NumPy",
+//       "Matplotlib",
+//       "Scikit-learn",
+//     ],
+//   },
+//   {
+//     id: 5,
+//     img: "https://img.jagranjosh.com/images/2022/June/662022/27545183_565788393830264_1612251284821766020_n.png",
+//     role: "Graphic Design Intern",
+//     company: "Rotaract Club of KC ",
+//     date: "Sep 2020 - Oct 2020",
+//     desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement.",
+//     skills: [
+//       "Adobe Photoshop",
+//       "Adobe Illustrator",
+//       "Canva",
+//     ],
+//   },
+//   {
+//     id: 6,
+//     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/LOGO.png",
+//     role: "Streamer & Content Creator",
+//     company: "YouTube",
+//     date: "Dec 2016 - Present",
+//     desc: "I started my YouTube channel named FireEmperor, where I create gaming videos and make live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
+//     skills: [
+//       "Adobe Photoshop",
+//       "Adobe Illustrator",
+//       "Adobe After Effects",
+//       "Adobe Premiere Pro",
+//       "YouTube SEO",
+//       "Content Creation",
+//       "Sony Vegas Pro",
+//       "Video Editing",
+//       "Thumbnail Design",
+//     ],
+//   },
+// ];
+
+// export const education = [
+//   {
+//     id: 0,
+//     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
+//     school: "University of North Carolina at Charlotte, USA",
+//     date: "Aug 2023 - May 2025",
+//     grade: "3.90 GPA",
+//     desc: "I recently completed my Master’s degree in Information Technology at UNC Charlotte with a GPA of 3.90. My coursework included Mobile Application Development, Algorithms & Data Structures, Software System Design & Implementation, Network Security, Principles of Information Security & Privacy, Applied Databases, Human-Centered Design, IT Ethics & Privacy, Big Data Analytics for Computing, and Survey of Programming Languages. Through this program, I developed hands-on projects that reflect my technical skills and real-world problem-solving abilities.",
+//     degree: "Master of Science in Information Technology ",
+//   },
+//   {
+//     id: 1,
+//     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/univ_mum.jpg",
+//     school: "University of Mumbai ",
+//     date: "Apr 2018 - May 2022",
+//     grade: "3.5 GPA",
+//     desc: "I have Completed my Bachelor in Information Technology at Excelsior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
+//     degree: "Bachelor of Engineering in Information Technology",
+//   },
+// ];
 
 export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
     role: "Web Developer",
-    company: "Rebecca Everline Trust Company",
+    company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
-    desc: "Built educational pages for MEDKids Strong Like Astronauts using WordPress, Figma, and custom CSS/JS. Managed asset versioning and updates via GitHub, optimizing layout responsiveness and accessibility. Contributed to Landmarks transit data project, standardizing bus stop datasets for Power BI analysis.",
-    skills: [
-      "Figma",
-      "WordPress",
-      "Power BI",
-      "GitHub",
-      "Custom CSS/JS",
-      "Slack",
-      "Monday.com",
-    ],
+    desc:
+      "Built and maintained educational web pages using WordPress, custom CSS, and JavaScript, improving responsiveness and accessibility. Managed assets and version control via GitHub for consistent deployments. Contributed to a transportation data initiative by validating and standardizing datasets used in Power BI dashboards.",
+    skills: ["WordPress", "CSS", "JavaScript", "Figma", "Git", "GitHub", "Power BI"],
   },
+
   {
     id: 1,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
-    desc: "Guided 50+ students in programming and system design courses, leading to improved pass rates. Created instructional materials and organized 5+ technical workshops with the professor, driving 30+ weekly student inquiries and boosting engagement in programming courses. Reviewed UML diagrams, use cases, and flowcharts, and guided students on wireframing and user-focused design using Figma.",
-    skills: [
-      "Teaching Assistance",
-      "Workshop Coordination",
-      "Grading",
-      "Academic Support",
-      "Curriculum Development",
-      "System Design",
-      "Figma",
-    ],
+    desc:
+      "Graduate Teaching Assistant for ITCS/ITIS 4102/5102 (Survey of Programming Languages) and ITCS/ITIS 6112/8112 (Software System Design and Implementation). Mentored 50+ students, created instructional materials, supported labs, and organized 5+ technical workshops. Reviewed UML diagrams and guided students on user-focused design using Figma.",
+    skills: ["Mentoring", "System Design", "UML", "Figma", "Programming"],
   },
+
   {
     id: 2,
     img: "https://bfsi.eletsonline.com/wp-content/uploads/2018/05/nelito.jpg",
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
-    desc: "Engineered Fin-DART, a data archival solution for Punjab & Sind Bank, improving reporting efficiency by approximately 12% through optimized data retrieval workflows. Automated document export features (Word, Excel, PDF), reducing manual work by 20% and saving 5-6 hours per week. Integrated SQL Server Reporting Services, boosting CRUD efficiency and cutting data retrieval time by 15%.",
-    skills: [
-      "Oracle",
-      "ASP.NET",
-      "C#",
-      "CSHTML",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "MySql",
-    ],
+    desc:
+      "Worked on FinDART, a centralized data archival and reporting web application for a public-sector bank. Developed screens and reporting workflows using ASP.NET MVC, C#, SQL Server, and JavaScript, supporting exports to PDF, Excel, and Word. Executed stored procedures and CRUD operations, and collaborated with the team to debug issues and deliver stable releases.",
+    skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
+
   {
     id: 3,
     img: "https://logodix.com/logo/501874.png",
     role: "Web Development Intern",
-    company: "Sparks Foundation",
+    company: "The Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
-    desc: "Built a donation portal and task tracker using NodeJS, designing interface layouts and user flows in Figma to ensure a clean and seamless front-end experience. Enhanced frontend performance by reducing DOM updates and redundant data fetches for smoother user interactions.",
-    skills: [
-      "HTML",
-      "NodeJS",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "RazorPay",
-      "Bootstrap",
-      "Git",
-    ],
+    desc:
+      "Built web applications using HTML, CSS, JavaScript, Node.js, and PHP. Developed an online banking system and a donation platform with payment integration. Designed user flows in Figma and improved frontend performance by reducing redundant DOM updates and data fetches.",
+    skills: ["HTML", "CSS", "JavaScript", "Node.js", "PHP", "Figma"],
   },
+
   {
     id: 4,
     img: "https://getmap.co.id/assets/img/divisions/getdesign.jpg",
     role: "Data Scientist Intern",
-    company: "Dezignolics Web & Software Solutions ",
+    company: "Dezignolics Web & Software Solutions",
     date: "Feb 2021 - Mar 2021",
-    desc: "Performed Python-based analytics on 10,000+ data points, enabling better business insights.",
-    skills: [
-      "Python",
-      "Tableau",
-      "Data Analysis",
-      "Data Visualization",
-      "Data Cleansing",
-      "Predictive Analytics",
-      "Jupyter Notebook",
-      "Pandas",
-      "NumPy",
-      "Matplotlib",
-      "Scikit-learn",
-    ],
+    desc:
+      "Performed Python-based analysis on 10,000+ data points, supporting insights through data cleaning, exploratory analysis, and Tableau dashboards.",
+    skills: ["Python", "Pandas", "Tableau", "Data Cleaning", "Data Visualization"],
   },
+
   {
     id: 5,
     img: "https://img.jagranjosh.com/images/2022/June/662022/27545183_565788393830264_1612251284821766020_n.png",
@@ -463,30 +655,18 @@ export const experiences = [
     company: "Rotaract Club of KC ",
     date: "Sep 2020 - Oct 2020",
     desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement.",
-    skills: [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Canva",
-    ],
+    skills: [ "Adobe Photoshop", "Adobe Illustrator", "Canva"],
   },
+
   {
     id: 6,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/LOGO.png",
     role: "Streamer & Content Creator",
-    company: "YouTube",
+    company: "YouTube (FireEmperor)",
     date: "Dec 2016 - Present",
-    desc: "I started my YouTube channel named FireEmperor, where I create gaming videos and make live streams. I have done a podcast with various Genshin Impact streamers, sharing views about the game and collaborating with creators. I have currently made 421+ videos, and my channel has 2.08K subscribers and 312,418 views.",
-    skills: [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Adobe After Effects",
-      "Adobe Premiere Pro",
-      "YouTube SEO",
-      "Content Creation",
-      "Sony Vegas Pro",
-      "Video Editing",
-      "Thumbnail Design",
-    ],
+    desc:
+      "Produced 400+ videos and managed a gaming-focused YouTube channel, reaching 300K+ views and 2K+ subscribers. Planned content, edited videos, and handled publishing and live streaming alongside academic and professional work.",
+    skills: ["Content Creation", "Video Editing", "SEO"],
   },
 ];
 
@@ -497,16 +677,18 @@ export const education = [
     school: "University of North Carolina at Charlotte, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.90 GPA",
-    desc: "I recently completed my Master’s degree in Information Technology at UNC Charlotte with a GPA of 3.90. My coursework included Mobile Application Development, Algorithms & Data Structures, Software System Design & Implementation, Network Security, Principles of Information Security & Privacy, Applied Databases, Human-Centered Design, IT Ethics & Privacy, Big Data Analytics for Computing, and Survey of Programming Languages. Through this program, I developed hands-on projects that reflect my technical skills and real-world problem-solving abilities.",
-    degree: "Master of Science in Information Technology ",
+    desc:
+      "M.S. in Information Technology. Coursework included Algorithms & Data Structures, Software System Design & Implementation, Applied Databases, Big Data Analytics, Network Security, and Human-Centered Design.",
+    degree: "Master of Science in Information Technology",
   },
   {
     id: 1,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/univ_mum.jpg",
-    school: "University of Mumbai ",
+    school: "University of Mumbai",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
-    desc: "I have Completed my Bachelor in Information Technology at Excelsior Education Society's, K.C. College of Engineering & Management Studies & Research from the University of Mumbai with a GPA of 3.5.",
+    desc:
+      "B.E. in Information Technology with focus on software development fundamentals and project-based learning.",
     degree: "Bachelor of Engineering in Information Technology",
   },
 ];
