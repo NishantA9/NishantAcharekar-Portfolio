@@ -140,28 +140,30 @@ const ResumeButton = styled.a`
     text-align: center;
     padding: 16px 0;
 
-    background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(
         225deg,
         hsla(271, 100%, 50%, 1) 0%,
         hsla(294, 100%, 50%, 1) 100%
-    );
-    box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: 600;
-
-    &:hover {
+      );
+    
+      color: #ffffff; /* ✅ FIX */
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35); /* optional but 🔥 */
+    
+      box-shadow: 20px 20px 60px #1f2634;
+      border-radius: 50px;
+      font-size: 20px;
+      font-weight: 600;
+    
+      &:hover {
         transform: scale(1.05);
         transition: all 0.4s ease-in-out;
-        box-shadow: 20px 20px 60px #1f2634;
-        filter: brightness(1.2);
-    }
-
-    @media (max-width: 640px) {
+        filter: brightness(1.15);
+      }
+    
+      @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    }
+      }
 `;
 
 const ResumeButtonRow = styled.div`
