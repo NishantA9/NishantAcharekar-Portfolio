@@ -600,7 +600,7 @@ export const experiences = [
     company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
     desc:
-      "Built and maintained educational web pages using WordPress, custom CSS, and JavaScript, improving responsiveness and accessibility. Managed assets and version control via GitHub for consistent deployments. Contributed to a transportation data initiative by validating and standardizing datasets used in Power BI dashboards.",
+      "Contributed to the Landmarks Transportation Data Project by researching, validating, and cleaning large public transit datasets (routes, stops, schedules) to improve data accuracy and reliability. Cleaned, standardized, and structured bus stop and route data using Excel and SQL, enabling consistent analysis and downstream reporting. Designed Power BI dashboards to visualize transportation coverage and route density, supporting internal reporting and stakeholder insights. Developed and maintained educational web pages for MEDKids initiatives using WordPress, custom CSS, and JavaScript, implementing reusable UI components and dynamic behavior. Improved responsiveness and accessibility across desktop, tablet, and mobile devices by debugging layout issues and optimizing styles. Managed static assets and version control using GitHub, supporting clean code organization and collaborative development workflows.",
     skills: ["WordPress", "CSS", "JavaScript", "Figma", "Git", "GitHub", "Power BI"],
   },
 
