@@ -11,8 +11,8 @@ export const Bio = {
   github: "https://github.com/NishantA9",
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/14LGPBinj7YFSVyyXJq8m8qijmK2R93zK/view?usp=sharing",
-  resumeData: "https://drive.google.com/file/d/1KVLuR0ob3XPT5rJFHROjyyrxme2f-vrH/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/1pLW5IuTzDRNlPZjJmm09ymxjWDEp7G3z/view?usp=sharing",
+  resumeData: "https://drive.google.com/file/d/13Bqp-_5_bicN-XhW4ax8DiZ4G3zCcZGG/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
