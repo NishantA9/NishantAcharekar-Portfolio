@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com/NishantA9",
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/1pLW5IuTzDRNlPZjJmm09ymxjWDEp7G3z/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/1JieYhYI14spdJAIlr3GKlffUxuhsyI7_/view?usp=sharing",
   resumeData: "https://drive.google.com/file/d/13Bqp-_5_bicN-XhW4ax8DiZ4G3zCcZGG/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
@@ -600,7 +600,7 @@ export const experiences = [
     company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
     desc:
-      "Contributed to the Landmarks Transportation Data Project by researching, validating, and cleaning large public transit datasets (routes, stops, schedules) to improve data accuracy and reliability. Cleaned, standardized, and structured bus stop and route data using Excel and SQL, enabling consistent analysis and downstream reporting. Designed Power BI dashboards to visualize transportation coverage and route density, supporting internal reporting and stakeholder insights. Developed and maintained educational web pages for MEDKids initiatives using WordPress, custom CSS, and JavaScript, implementing reusable UI components and dynamic behavior. Improved responsiveness and accessibility across desktop, tablet, and mobile devices by debugging layout issues and optimizing styles. Managed static assets and version control using GitHub, supporting clean code organization and collaborative development workflows.",
+      "Developed and maintained MEDKids educational web pages using WordPress, custom CSS, and JavaScript, implementing reusable UI components and dynamic behavior. Improved responsiveness and accessibility across desktop, tablet, and mobile devices, and managed static assets and version control using GitHub. Supported the Landmarks Transportation Data Project by validating and structuring public transit datasets using Excel, and building Power BI dashboards to visualize bus stops, routes, and coverage for internal reporting and stakeholder insights.",
     skills: ["WordPress", "CSS", "JavaScript", "Figma", "Git", "GitHub", "Power BI"],
   },
 
@@ -622,7 +622,7 @@ export const experiences = [
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
     desc:
-      "Worked on FinDART, a centralized data archival and reporting web application for a public-sector bank. Developed screens and reporting workflows using ASP.NET MVC, C#, SQL Server, and JavaScript, supporting exports to PDF, Excel, and Word. Executed stored procedures and CRUD operations, and collaborated with the team to debug issues and deliver stable releases.",
+      "Developed and supported modules for Fin-DART, a regulatory reporting platform used by Punjab & Sind Bank. Integrated SQL Server with C#, ASP.NET MVC, CSHTML, and AJAX to dynamically render backend data on web pages, reducing data retrieval time by 15%, and debugged frontend components using HTML, CSS, JavaScript, and Bootstrap, improving layout consistency and usability. Performed extensive CRUD operations, validating 1,000+ records to ensure data accuracy and regulatory compliance. Optimized SQL queries and implemented reporting features enabling exports to PDF, Excel, and Word, while supporting server testing and deployment validation.",
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
 
