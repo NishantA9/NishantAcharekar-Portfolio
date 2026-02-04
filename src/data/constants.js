@@ -4,7 +4,9 @@ export const Bio = {
     "Software Engineer",
     "Full-Stack Developer",
     "Web (UI, UX) Developer",
+    "Data Analyst / Data Operations Analyst",
     "Data & BI (SQL, Power BI)",
+    "Content Creator (YouTube)",
   ],
   description: 
       "Software Engineer with experience building full-stack and frontend web applications using ASP.NET MVC, C#, React, JavaScript, and SQL. I’ve worked on enterprise systems and nonprofit platforms, focusing on data-driven features, reporting workflows, and user-friendly interfaces. I also have hands-on experience with SQL-based data validation and dashboards in Power BI/Tableau. Outside of work, I create YouTube content as a creative outlet.",
@@ -12,7 +14,7 @@ export const Bio = {
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
   resumeSDE: "https://drive.google.com/file/d/1JieYhYI14spdJAIlr3GKlffUxuhsyI7_/view?usp=sharing",
-  resumeData: "https://drive.google.com/file/d/13Bqp-_5_bicN-XhW4ax8DiZ4G3zCcZGG/view?usp=sharing",
+  resumeData: "https://drive.google.com/file/d/18eVwYKF2AV9z3qpCYxvrJsjvVOMmMywS/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
