@@ -4,9 +4,9 @@ export const Bio = {
     "Software Engineer",
     "Full-Stack Developer",
     "Web (UI, UX) Developer",
-    "Data Analyst / Data Operations Analyst",
+    "Data Analyst & Operations Analyst",
     "Data & BI (SQL, Power BI)",
-    "Content Creator (YouTube)",
+    "Content Creator YouTube",
   ],
   description: 
       "Software Engineer with experience building full-stack and frontend web applications using ASP.NET MVC, C#, React, JavaScript, and SQL. I’ve worked on enterprise systems and nonprofit platforms, focusing on data-driven features, reporting workflows, and user-friendly interfaces. I also have hands-on experience with SQL-based data validation and dashboards in Power BI/Tableau. Outside of work, I create YouTube content as a creative outlet.",
