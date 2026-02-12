@@ -120,21 +120,33 @@ const ExperienceCard = ({ experience }) => {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience.desc}</Span>}
-        {experience?.skills && (
-          <>
-            <br />
-            <Skills>
-              <b>Skills</b>
-              <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
-                ))}
-              </ItemWrapper>
-            </Skills>
-          </>
-        )}
-      </Description>
+  {experience?.desc &&
+    (Array.isArray(experience.desc) ? (
+      <ul style={{ margin: "0", paddingLeft: "18px" }}>
+        {experience.desc.map((point, idx) => (
+          <li key={idx} style={{ marginBottom: "6px" }}>
+            {point}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <Span>{experience.desc}</Span>
+    ))}
+
+  {experience?.skills && (
+    <>
+      <br />
+      <Skills>
+        <b>Skills</b>
+        <ItemWrapper>
+          {experience?.skills?.map((skill, index) => (
+            <Skill key={index}>• {skill}</Skill>
+          ))}
+        </ItemWrapper>
+      </Skills>
+    </>
+  )}
+</Description>
     </VerticalTimelineElement>
   );
 };

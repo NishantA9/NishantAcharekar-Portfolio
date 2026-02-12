@@ -3,18 +3,24 @@ export const Bio = {
   roles: [
     "Software Engineer",
     "Full-Stack Developer",
-    "Web (UI, UX) Developer",
-    "Data Analyst & Operations Analyst",
-    "Data & BI (SQL, Power BI)",
-    "Content Creator YouTube",
+    "Web-Developer",
+    "UI/UX Developer",
+    "Data Analyst",
+    "Data Engineer",
+    "BI/SQL Analyst",
+    "IT Applications Engineer",
+    "Content Creator",
   ],
   description: 
-      "Software Engineer with experience building full-stack and frontend web applications using ASP.NET MVC, C#, React, JavaScript, and SQL. I’ve worked on enterprise systems and nonprofit platforms, focusing on data-driven features, reporting workflows, and user-friendly interfaces. I also have hands-on experience with SQL-based data validation and dashboards in Power BI/Tableau. Outside of work, I create YouTube content as a creative outlet.",
+      "Full-Stack Software Engineer and Data Analyst with hands-on experience building SQL-backed web " +
+      "applications, regulatory reporting systems, and data validation pipelines using C#, ASP.NET MVC, JavaScript, React, Node.js, SQL Server, PostgreSQL, Python, Power BI, and Tableau. "+
+       "Experienced in backend–frontend integration, CRUD workflows, data quality auditing, reporting automation (PDF/Excel/Word), and dashboard-driven insights. "+
+       "Strong foundation in data validation, system design fundamentals, and end-to-end application development across enterprise and nonprofit environments.",
   github: "https://github.com/NishantA9",
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/1JieYhYI14spdJAIlr3GKlffUxuhsyI7_/view?usp=sharing",
-  resumeData: "https://drive.google.com/file/d/18eVwYKF2AV9z3qpCYxvrJsjvVOMmMywS/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/17PiTGOPIf8T4ThWGx8U0kHaL17Zk9y1y/view?usp=sharing",
+  resumeData: "https://drive.google.com/file/d/1awY3fDEWlHi-7LdavQkn5yPlArrqSzoi/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -598,11 +604,17 @@ export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
-    role: "Web Developer",
+    role: "Web Developer & Data Analyst",
     company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
-    desc:
-      "Developed and maintained MEDKids educational web pages using WordPress, custom CSS, and JavaScript, implementing reusable UI components and dynamic behavior. Improved responsiveness and accessibility across desktop, tablet, and mobile devices, and managed static assets and version control using GitHub. Supported the Landmarks Transportation Data Project by validating and structuring public transit datasets using Excel, and building Power BI dashboards to visualize bus stops, routes, and coverage for internal reporting and stakeholder insights.",
+    desc: [
+    "Developed and maintained MEDKids educational web pages using WordPress, custom CSS, and JavaScript, implementing reusable UI components and improving cross-device responsiveness and accessibility compliance.",
+    "Translated Figma designs into production-ready web pages, optimizing frontend structure and layout consistency.",
+    "Managed version control and deployment workflows using GitHub to streamline feature updates and content releases.",
+    "Validated and structured large public transportation datasets (routes, stops, schedules) using Excel and SQL, improving data accuracy and reducing inconsistencies.",
+    "Cleaned and standardized 6,000+ transit records to ensure reporting reliability and downstream dashboard integration.",
+    "Designed Power BI dashboards to visualize transportation coverage, route density, and reporting readiness for internal stakeholders."
+    ],
     skills: ["WordPress", "CSS", "JavaScript", "Figma", "Git", "GitHub", "Power BI"],
   },
 
@@ -612,8 +624,11 @@ export const experiences = [
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
-    desc:
-      "Graduate Teaching Assistant for ITCS/ITIS 4102/5102 (Survey of Programming Languages) and ITCS/ITIS 6112/8112 (Software System Design and Implementation). Mentored 50+ students, created instructional materials, supported labs, and organized 5+ technical workshops. Reviewed UML diagrams and guided students on user-focused design using Figma.",
+    desc: [
+    "Mentored 50+ students in web development, SQL querying, and system design fundamentals, improving conceptual clarity and implementation confidence.",
+    "Conducted technical workshops covering frontend architecture, REST APIs, and database integration concepts.",
+    "Reviewed UML diagrams, use cases, and frontend prototypes, ensuring structured system implementation aligned with functional requirements and Agile iteration principles."
+    ],
     skills: ["Mentoring", "System Design", "UML", "Figma", "Programming"],
   },
 
@@ -623,8 +638,14 @@ export const experiences = [
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
-    desc:
-      "Developed and supported modules for Fin-DART, a regulatory reporting platform used by Punjab & Sind Bank. Integrated SQL Server with C#, ASP.NET MVC, CSHTML, and AJAX to dynamically render backend data on web pages, reducing data retrieval time by 15%, and debugged frontend components using HTML, CSS, JavaScript, and Bootstrap, improving layout consistency and usability. Performed extensive CRUD operations, validating 1,000+ records to ensure data accuracy and regulatory compliance. Optimized SQL queries and implemented reporting features enabling exports to PDF, Excel, and Word, while supporting server testing and deployment validation.",
+    desc: [
+    "Developed and supported SQL-backed regulatory reporting modules using C#, ASP.NET MVC (CSHTML), and SQL Server stored procedures for financial statement generation.",
+    "Integrated backend SQL data with dynamic frontend rendering using AJAX, HTML, CSS, and Bootstrap, improving UI consistency and user experience.",
+    "Implemented automated financial statement exports to PDF, Excel, and Word formats, ensuring compliance-driven reporting accuracy and consistent multi-format outputs.",
+    "Performed structured CRUD operations, data validation, and reconciliation checks on 1,000+ financial records to maintain regulatory and compliance standards prior to production deployment.",
+    "Optimized SQL queries (joins, aggregations, stored procedures), improving reporting performance and reducing data retrieval latency by 15%.",
+    "Collaborated with QA and engineering teams to troubleshoot data inconsistencies and support release validation cycles."
+  ],
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
 
@@ -634,8 +655,10 @@ export const experiences = [
     role: "Web Development Intern",
     company: "The Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
-    desc:
-      "Built web applications using HTML, CSS, JavaScript, Node.js, and PHP. Developed an online banking system and a donation platform with payment integration. Designed user flows in Figma and improved frontend performance by reducing redundant DOM updates and data fetches.",
+    desc: [
+    "Developed a donation portal and task management system using Node.js, HTML, CSS, and JavaScript.",
+    "Converted Figma workflows into responsive Bootstrap components and optimized DOM rendering for improved UI performance."
+    ],
     skills: ["HTML", "CSS", "JavaScript", "Node.js", "PHP", "Figma"],
   },
 
@@ -645,8 +668,11 @@ export const experiences = [
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions",
     date: "Feb 2021 - Mar 2021",
-    desc:
-      "Performed Python-based analysis on 10,000+ data points, supporting insights through data cleaning, exploratory analysis, and Tableau dashboards.",
+    desc: [
+    "Analyzed 10,000+ structured data records using Python (Pandas, NumPy) to identify trends and reporting insights.",
+    "Built Tableau dashboards to communicate findings and support stakeholder decision-making.",
+    "Documented data discrepancies and assisted in improving reporting accuracy through structured validation checks."
+    ],
     skills: ["Python", "Pandas", "Tableau", "Data Cleaning", "Data Visualization"],
   },
 
@@ -656,7 +682,9 @@ export const experiences = [
     role: "Graphic Design Intern",
     company: "Rotaract Club of KC ",
     date: "Sep 2020 - Oct 2020",
-    desc: "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement.",
+    desc: [
+    "Produced social media graphics with Adobe Photoshop and Premiere Pro, boosting college engagement.",
+    ],
     skills: [ "Adobe Photoshop", "Adobe Illustrator", "Canva"],
   },
 
@@ -666,9 +694,11 @@ export const experiences = [
     role: "Streamer & Content Creator",
     company: "YouTube (FireEmperor)",
     date: "Dec 2016 - Present",
-    desc:
-      "Produced 400+ videos and managed a gaming-focused YouTube channel, reaching 300K+ views and 2K+ subscribers. Planned content, edited videos, and handled publishing and live streaming alongside academic and professional work.",
-    skills: ["Content Creation", "Video Editing", "SEO"],
+    desc: [
+    "Produced 400+ videos and managed a gaming-focused YouTube channel, reaching 300K+ views and 2K+ subscribers.",
+    "Planned content, edited videos, and handled publishing and live streaming alongside academic and professional work."
+    ],
+    skills: ["Content Creation", "Graphic Designer", "Photo Editing", "Gaming", "Commentary", "YouTube", "Video Editing", "SEO"],
   },
 ];
 
@@ -757,17 +787,17 @@ export const projects = [
     github: "https://github.com/NishantA9/NishantAcharekar-Portfolio",
     webapp: "https://nishantacharekarportfolio.netlify.app/",
   },
+
   {
     id: 4,
     title: "Manga-Kun Reviews",
     date: "Jul 2024",
     description:
-      "This project is a book collection application built with Node.js, Express, and PostgreSQL. The application allows users to add, view, edit, and delete books from their collection. Each book entry includes details like the ISBN, author, title, description, rating, and the date it was read. Additionally, the application fetches and displays book covers from the Open Library API.",
+      "This project is a book collection application built with React, and PostgreSQL. The application allows users to add, view, edit, and delete books from their collection. Each book entry includes details like the ISBN, author, title, description, rating, and the date it was read. Additionally, the application fetches and displays book covers from the Open Library API.",
     image:
     "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/manga_kun.png",
     tags: [
-      "Node Js",
-      "Express Js",
+      "React Js",
       "HTML",
       "CSS",
       "JavaScript",
@@ -1032,6 +1062,30 @@ export const projects = [
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
     github: "https://github.com/NishantA9/fastnfitness",
+  },
+
+    {
+    id: 19,
+    title: "(OLD) Manga-Kun",
+    date: "Jul 2024",
+    description:
+      "This project is a book collection application built with Node.js, Express, and PostgreSQL. The application allows users to add, view, edit, and delete books from their collection. Each book entry includes details like the ISBN, author, title, description, rating, and the date it was read. Additionally, the application fetches and displays book covers from the Open Library API.",
+    image:
+    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/manga_kun.png",
+    tags: [
+      "Node Js",
+      "Express Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PostgreSQL",
+      "REST API",
+      "Open Library API",
+      "CRUD Operations",
+      "EJS",
+    ],
+    category: "web app",
+    github: "https://github.com/NishantA9/Manga-Kun-Reviews",
   },
 ];
 
