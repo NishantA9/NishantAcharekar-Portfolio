@@ -19,8 +19,8 @@ export const Bio = {
   github: "https://github.com/NishantA9",
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/1QSdZ_-Q_E5IJnfzwXj24904TvqTdDlHA/view?usp=sharing",
-  resumeData: "https://drive.google.com/file/d/1awY3fDEWlHi-7LdavQkn5yPlArrqSzoi/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/1LkMNZ7yBWNQtvU4QZ4tl6BCK9Hk4c-wB/view?usp=sharing",
+  resumeData: "https://drive.google.com/file/d/18UsWYWIT3lldjpAyFDheyCOzHV1GsyWp/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -443,6 +443,9 @@ export const skills = [
     title: "DevOps",
     skills: [
       { name: "AWS", image: "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png" },
+      { name: "Supabase", image: "https://img.icons8.com/?size=100&id=grZaE9tjqDyr&format=png&color=000000" },
+      { name: "Netlify", image: "https://img.icons8.com/?size=100&id=rD15EcpCkinR&format=png&color=000000" },
+      { name: "Vercel", image: "https://img.icons8.com/?size=100&id=111054&format=png&color=000000" },            
       { name: "Git", image: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000" },
       { name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
       { name: "Postman", image: "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" },
@@ -604,7 +607,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
-    role: "Web Developer & Data Analyst",
+    role: "Software Engineer",
     company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
     desc: [
@@ -670,10 +673,10 @@ export const experiences = [
     date: "Feb 2021 - Mar 2021",
     desc: [
     "Analyzed 10,000+ structured data records using Python (Pandas, NumPy) to identify trends and reporting insights.",
-    "Built Tableau dashboards to communicate findings and support stakeholder decision-making.",
+    "Built Power BI dashboards to communicate findings and support stakeholder decision-making.",
     "Documented data discrepancies and assisted in improving reporting accuracy through structured validation checks."
     ],
-    skills: ["Python", "Pandas", "Tableau", "Data Cleaning", "Data Visualization"],
+    skills: ["Python", "Pandas", "Power BI", "Data Cleaning", "Data Visualization"],
   },
 
   {
@@ -726,8 +729,32 @@ export const education = [
 ];
 
 export const projects = [
-  {
+    {
     id: 1,
+    title: "Manga-Kun Reviews",
+    date: "Feb 2026",
+    description:
+      "Built and deployed a React-based full-stack book management app using Supabase (PostgreSQL), implementing dynamic CRUD workflows, client-side routing, and REST-driven data integration. Integrated the Open Library Covers API for automated ISBN-based cover retrieval and deployed via Vercel with CI/CD support.",
+    image:
+    "https://github.com/NishantA9/portfolio-images/blob/main/new-manga.png?raw=true",
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Supabase",
+      "PostgreSQL",
+      "REST API",
+      "Open Library API",
+      "CRUD Operations",
+      "EJS",
+    ],
+    category: "web app",
+    github: "https://nishant-manga-kun-reviews.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "UNCC High Fidelity Prototype",
     date: "Jan 2025",
     description:
@@ -742,7 +769,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -769,7 +796,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -786,29 +813,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/NishantA9/NishantAcharekar-Portfolio",
     webapp: "https://nishantacharekarportfolio.netlify.app/",
-  },
-
-  {
-    id: 4,
-    title: "Manga-Kun Reviews",
-    date: "Jul 2024",
-    description:
-      "This project is a book collection application built with React, and PostgreSQL. The application allows users to add, view, edit, and delete books from their collection. Each book entry includes details like the ISBN, author, title, description, rating, and the date it was read. Additionally, the application fetches and displays book covers from the Open Library API.",
-    image:
-    "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/manga_kun.png",
-    tags: [
-      "React Js",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PostgreSQL",
-      "REST API",
-      "Open Library API",
-      "CRUD Operations",
-      "EJS",
-    ],
-    category: "web app",
-    github: "https://github.com/NishantA9/Manga-Kun-Reviews",
   },
 
   {
@@ -975,7 +979,6 @@ export const projects = [
     github: "https://github.com/NishantA9/WeatherChecker",
   },
 
-  
   {
     id: 13,
     title: "Permalist Website",
@@ -1085,7 +1088,7 @@ export const projects = [
       "EJS",
     ],
     category: "web app",
-    github: "https://github.com/NishantA9/Manga-Kun-Reviews",
+    github: "https://github.com/NishantA9/old-manga-kun",
   },
 ];
 
@@ -1098,5 +1101,5 @@ export const TimeLineData = [
   { year: 2022, text: "Completed my Bachelors, Completed 2K Subscribers on YouTube, Got Placed in Nelito Systems as a Software Engineer" },
   { year: 2023, text: "Resigned from Nelito and Started my Masters at UNC Charlotte" },
   { year: 2024, text: "Working as an AV-TECH, and now Started my Journey as a Graduate Teaching Assistant at UNC Charlotte" },
-  { year: 2025, text: "Completed my Masters Degree, Completed my contract as Graduate Teaching Assistant at UNC Charlotte, Looking for Full Time Roles" },
+  { year: 2025, text: "Completed my Masters Degree, Completed my contract as Graduate Teaching Assistant at UNC Charlotte, Joined Rebecca as a Software Engineer, Looking for Full Time Roles" },
 ];

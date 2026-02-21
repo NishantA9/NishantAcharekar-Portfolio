@@ -120,7 +120,7 @@ const Footer = () => {
             FireEmperor
           </a>
         </Copyright>        
-        <Copyright>&copy; 2024 Nishant Acharekar. All rights reserved.</Copyright>
+        <Copyright>&copy; {new Date().getFullYear()} Nishant Acharekar. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
