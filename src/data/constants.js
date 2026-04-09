@@ -19,7 +19,7 @@ export const Bio = {
   github: "https://github.com/NishantA9",
   // resume:
   //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/12mWXNiODlTqeS7g8_RWTwRjQg07_kc6U/view?usp=sharing",
+  resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
   resumeData: "https://drive.google.com/file/d/12Yuuzx8INeGHiHGGp25N2Drk0T4t2eWQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
@@ -607,14 +607,15 @@ export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
-    role: "Software Engineer",
+    role: "Web Developer",
     company: "Rebecca Everlene Trust Company",
     date: "Jul 2025 - Present",
     desc: [
-    "Developed and maintained MEDKids educational web pages using WordPress, custom CSS, and JavaScript, implementing reusable UI components and improving cross-device responsiveness and accessibility compliance.",
-    "Translated Figma designs into production-ready web pages, optimizing frontend structure and layout consistency.",
-    "Managed version control and deployment workflows using GitHub to streamline feature updates and content releases.",
+    "Developed reusable frontend components within a WordPress-based system, supporting dynamic content workflows and improving consistency across multi-page applications.",
+    "Converted Figma designs into responsive production-ready pages, improving cross-device usability and reducing UI inconsistencies across 75+ pages.",
+    "Optimized frontend asset loading and layout structure, reducing layout shifts and improving page rendering stability.",
     "Validated and structured large public transportation datasets (routes, stops, schedules) using Excel and SQL, improving data accuracy and reducing inconsistencies.",
+    "Streamlined deployment workflows using GitHub, enabling faster iteration cycles and reducing release friction for frontend updates.",
     "Cleaned and standardized 6,000+ transit records to ensure reporting reliability and downstream dashboard integration.",
     "Designed Power BI dashboards to visualize transportation coverage, route density, and reporting readiness for internal stakeholders."
     ],
@@ -628,7 +629,7 @@ export const experiences = [
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
     desc: [
-    "Mentored 50+ students in web development, SQL querying, and system design fundamentals, improving conceptual clarity and implementation confidence.",
+    "Mentored 50+ students in full-stack development and system design, improving their ability to build and debug end-to-end applications.",
     "Conducted technical workshops covering frontend architecture, REST APIs, and database integration concepts.",
     "Reviewed UML diagrams, use cases, and frontend prototypes, ensuring structured system implementation aligned with functional requirements and Agile iteration principles."
     ],
@@ -642,12 +643,10 @@ export const experiences = [
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
     desc: [
-    "Developed and supported SQL-backed regulatory reporting modules using C#, ASP.NET MVC (CSHTML), and SQL Server stored procedures for financial statement generation.",
-    "Integrated backend SQL data with dynamic frontend rendering using AJAX, HTML, CSS, and Bootstrap, improving UI consistency and user experience.",
-    "Implemented automated financial statement exports to PDF, Excel, and Word formats, ensuring compliance-driven reporting accuracy and consistent multi-format outputs.",
-    "Performed structured CRUD operations, data validation, and reconciliation checks on 1,000+ financial records to maintain regulatory and compliance standards prior to production deployment.",
-    "Optimized SQL queries (joins, aggregations, stored procedures), improving reporting performance and reducing data retrieval latency by 15%.",
-    "Collaborated with QA and engineering teams to troubleshoot data inconsistencies and support release validation cycles."
+    "Built production-grade SQL-driven reporting modules using ASP.NET MVC and stored procedures to generate regulatory financial statements used in compliance workflows.",
+    "Automated multi-format financial statement exports (PDF, Excel, Word), ensuring consistent formatting across regulatory reporting pipelines.",
+    "Optimized SQL queries (joins, aggregations, stored procedures), improving reporting performance by 15% and reducing data retrieval latency.",
+    "Improved frontend consistency using Bootstrap and JavaScript, resolving UI defects and reducing QA iteration cycles."
   ],
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
@@ -659,8 +658,7 @@ export const experiences = [
     company: "The Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
     desc: [
-    "Developed a donation portal and task management system using Node.js, HTML, CSS, and JavaScript.",
-    "Converted Figma workflows into responsive Bootstrap components and optimized DOM rendering for improved UI performance."
+    "Developed a donation portal and task management system using Node.js and JavaScript, supporting user workflows and real-time updates, and converted Figma designs into responsive Bootstrap components to improve frontend rendering."
     ],
     skills: ["HTML", "CSS", "JavaScript", "Node.js", "PHP", "Figma"],
   },
