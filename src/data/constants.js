@@ -11,16 +11,16 @@ export const Bio = {
     "IT Applications Engineer",
     "Content Creator",
   ],
-  description: 
-      "Full-Stack Software Engineer and Data Analyst with hands-on experience building SQL-backed web " +
-      "applications, regulatory reporting systems, and data validation pipelines using C#, ASP.NET MVC, JavaScript, React, Node.js, SQL Server, PostgreSQL, Python, Power BI, and Tableau. "+
-       "Experienced in backend–frontend integration, CRUD workflows, data quality auditing, reporting automation (PDF/Excel/Word), and dashboard-driven insights. "+
-       "Strong foundation in data validation, system design fundamentals, and end-to-end application development across enterprise and nonprofit environments.",
+  description:
+      "Software Engineer with 2+ years of experience developing enterprise web applications," + 
+      " financial reporting systems, and data driven solutions using C#, ASP.NET MVC," + 
+      " JavaScript, SQL Server, React, and PostgreSQL. Experienced in designing" + 
+      " scalable backend services, integrating responsive frontends, optimizing SQL performance, and delivering production-ready " +
+      "software across enterprise and nonprofit environments.", 
   github: "https://github.com/NishantA9",
-  // resume:
-  //   "https://drive.google.com/file/d/1lOXuliPrdNwPrOHU3f3sISXHziyBM36-/view?usp=sharing",
-  resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
-  resumeData: "https://drive.google.com/file/d/12Yuuzx8INeGHiHGGp25N2Drk0T4t2eWQ/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1PAIdC5BCWlMNklOM64oRuf72EceiLLAs/view?usp=sharing",
+  // resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
+  // resumeData: "https://drive.google.com/file/d/12Yuuzx8INeGHiHGGp25N2Drk0T4t2eWQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
   twitter: "https://x.com/fireemperor9",
   insta: "https://www.instagram.com/fire_guardian9/",
@@ -609,15 +609,13 @@ export const experiences = [
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
     role: "Web Developer",
     company: "Rebecca Everlene Trust Company",
-    date: "Jul 2025 - Present",
+    date: "Jul 2025 - Jul 2026",
     desc: [
-    "Developed reusable frontend components within a WordPress-based system, supporting dynamic content workflows and improving consistency across multi-page applications.",
-    "Converted Figma designs into responsive production-ready pages, improving cross-device usability and reducing UI inconsistencies across 75+ pages.",
-    "Optimized frontend asset loading and layout structure, reducing layout shifts and improving page rendering stability.",
-    "Validated and structured large public transportation datasets (routes, stops, schedules) using Excel and SQL, improving data accuracy and reducing inconsistencies.",
-    "Streamlined deployment workflows using GitHub, enabling faster iteration cycles and reducing release friction for frontend updates.",
-    "Cleaned and standardized 6,000+ transit records to ensure reporting reliability and downstream dashboard integration.",
-    "Designed Power BI dashboards to visualize transportation coverage, route density, and reporting readiness for internal stakeholders."
+    "Engineered reusable WordPress components using JavaScript, HTML, CSS, and custom templates, improving consistency across 75+ responsive web pages.",
+    "Translated 75+ Figma designs into production-ready web pages, improving cross-device compatibility and reducing UI inconsistencies.",
+    "Researched, validated, and cleaned 10,000+ public transit records, using Excel and SQL, improving data accuracy and reducing inconsistencies, then built a WordPress-based transit portal displaying, " +
+    "routes by state and system, improving accessibility of transit information for internal stakeholders",
+    "Standardized GitHub-based deployment workflows, improving release consistency and collaboration across the team."
     ],
     skills: ["WordPress", "CSS", "JavaScript", "Figma", "Git", "GitHub", "Power BI"],
   },
@@ -629,9 +627,9 @@ export const experiences = [
     company: "UNC Charlotte",
     date: "Aug 2024 - May 2025",
     desc: [
-    "Mentored 50+ students in full-stack development and system design, improving their ability to build and debug end-to-end applications.",
-    "Conducted technical workshops covering frontend architecture, REST APIs, and database integration concepts.",
-    "Reviewed UML diagrams, use cases, and frontend prototypes, ensuring structured system implementation aligned with functional requirements and Agile iteration principles."
+    "Mentored 40 students across rotating batches (of 120 total, split among 3 TAs) on system design fundamentals, database design, and full-stack application development through labs and one-on-one sessions.",
+    "Reviewed student UML diagrams, database schemas, and Figma prototypes against structured design-to-implementation workflows, improving design clarity and reducing rework.",
+    "Conducted code reviews and technical workshops on REST APIs, database integration, and software engineering best practices."
     ],
     skills: ["Mentoring", "System Design", "UML", "Figma", "Programming"],
   },
@@ -643,10 +641,10 @@ export const experiences = [
     company: "Nelito Systems Pvt. Ltd",
     date: "Jul 2022 - Jul 2023",
     desc: [
-    "Built production-grade SQL-driven reporting modules using ASP.NET MVC and stored procedures to generate regulatory financial statements used in compliance workflows.",
-    "Automated multi-format financial statement exports (PDF, Excel, Word), ensuring consistent formatting across regulatory reporting pipelines.",
-    "Optimized SQL queries (joins, aggregations, stored procedures), improving reporting performance by 15% and reducing data retrieval latency.",
-    "Improved frontend consistency using Bootstrap and JavaScript, resolving UI defects and reducing QA iteration cycles."
+    "Developed enterprise reporting modules for Punjab & Sind Bank's Fin-DART platform using C#, ASP.NET MVC, SQL Server, and Stored Procedures, supporting regulatory financial reporting.",
+    "Integrated SQL Server data with backend reporting logic to generate PDF, Excel, and Word exports using ClosedXML and iTextSharp, formatting and aligning table layouts for accurate regulatory output.",
+    "Optimized complex SQL queries, joins, indexes, and stored procedures, improving report execution performance by 15% across enterprise datasets.",
+    "Performed CRUD operations, validated 1,000+ financial records for regulatory accuracy, debugged frontend/backend issues, and supported production deployments."
   ],
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
@@ -658,7 +656,8 @@ export const experiences = [
     company: "The Sparks Foundation",
     date: "Oct 2021 - Nov 2021",
     desc: [
-    "Developed a donation portal and task management system using Node.js and JavaScript, supporting user workflows and real-time updates, and converted Figma designs into responsive Bootstrap components to improve frontend rendering."
+    "Built a donation portal and task tracker using Node.js, HTML, CSS, and JavaScript, integrating Razorpay to simplify and streamline donation transactions, along with CRUD operations and Git-based version control.",
+    "Designed frontend flows in Figma and optimized DOM updates to improve UI responsiveness."
     ],
     skills: ["HTML", "CSS", "JavaScript", "Node.js", "PHP", "Figma"],
   },
@@ -670,9 +669,7 @@ export const experiences = [
     company: "Dezignolics Web & Software Solutions",
     date: "Feb 2021 - Mar 2021",
     desc: [
-    "Analyzed 10,000+ structured data records using Python (Pandas, NumPy) to identify trends and reporting insights.",
-    "Built Power BI dashboards to communicate findings and support stakeholder decision-making.",
-    "Documented data discrepancies and assisted in improving reporting accuracy through structured validation checks."
+    "Analyzed 10,000+ data points using Python to identify trends and built Power BI dashboards to communicate insights to stakeholders.",
     ],
     skills: ["Python", "Pandas", "Power BI", "Data Cleaning", "Data Visualization"],
   },

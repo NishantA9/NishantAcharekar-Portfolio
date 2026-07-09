@@ -254,20 +254,20 @@ const Hero = () => {
                         </motion.div>
                             <ResumeButtonRow>
                                   <ResumeButton
-                                    href={Bio.resumeSDE || Bio.resume}
+                                    href={Bio.resume || Bio.resume}
                                     target="_blank"
                                     rel="noreferrer"
                                   >
-                                    Resume (SDE)
+                                    Resume
                                   </ResumeButton>
 
-                                  <ResumeButton
+                                  {/* <ResumeButton
                                     href={Bio.resumeData || Bio.resume}
                                     target="_blank"
                                     rel="noreferrer"
                                   >
                                     Resume (Data)
-                                  </ResumeButton>
+                                  </ResumeButton> */}
                             </ResumeButtonRow>
                     </HeroLeftContainer>
                     <HeroRightContainer>
