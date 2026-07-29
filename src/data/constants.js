@@ -12,13 +12,13 @@ export const Bio = {
     "Content Creator",
   ],
   description:
-      "Software Engineer with 2+ years of experience developing enterprise web applications," + 
+      "Software Engineer with 3+ years of experience developing enterprise web applications," + 
       " financial reporting systems, and data driven solutions using C#, ASP.NET MVC," + 
       " JavaScript, SQL Server, React, and PostgreSQL. Experienced in designing" + 
       " scalable backend services, integrating responsive frontends, optimizing SQL performance, and delivering production-ready " +
       "software across enterprise and nonprofit environments.", 
   github: "https://github.com/NishantA9",
-  resume: "https://drive.google.com/file/d/1_wh7IyIWBPy_-VqyK7h2VPMUVg8TvTjS/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1I_fyUDrT1b9pw0ZIPodRx4E3d5ZtAJE_/view?usp=sharing",
   // resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
   // resumeData: "https://drive.google.com/file/d/12Yuuzx8INeGHiHGGp25N2Drk0T4t2eWQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
@@ -625,7 +625,7 @@ export const experiences = [
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
-    date: "Aug 2024 - May 2025",
+    date: "Jun 2024 - May 2025",
     desc: [
     "Mentored 40 students across rotating batches (of 120 total, split among 3 TAs) on system design fundamentals, database design, and full-stack application development through labs and one-on-one sessions.",
     "Reviewed student UML diagrams, database schemas, and Figma prototypes against structured design-to-implementation workflows, improving design clarity and reducing rework.",
