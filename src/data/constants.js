@@ -18,7 +18,7 @@ export const Bio = {
       " scalable backend services, integrating responsive frontends, optimizing SQL performance, and delivering production-ready " +
       "software across enterprise and nonprofit environments.", 
   github: "https://github.com/NishantA9",
-  resume: "https://drive.google.com/file/d/1irB4q6pFnSYjjZqownb3PA4vuLlpoeDC/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1d-tNtzC5vdSFIFwtf57LI3ceQcDVVSC1/view?usp=sharing",
   // resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
   // resumeData: "https://drive.google.com/file/d/12Yuuzx8INeGHiHGGp25N2Drk0T4t2eWQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nishantacharekar/",
