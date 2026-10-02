@@ -1,22 +1,44 @@
+import oneFiImage from "../images/1f1.png";
+import mangaimg from "../images/manga.png";
+import thumbnail1 from "../images/tb1.png";
+import thumbnail2 from "../images/tb2.png";
+import thumbnail3 from "../images/tb3.png";
+import thumbnail4 from "../images/tb4.png";
+import thumbnail5 from "../images/tb5.png";
+import thumbnail6 from "../images/tb6.png";
+import thumbnail7 from "../images/tb7.png";
+import thumbnail8 from "../images/tb8.png";
+import thumbnail9 from "../images/tb9.jpg";
+import thumbnail10 from "../images/tb10.jpg";
+import thumbnail11 from "../images/tb11.jpg";
+import overlay1 from "../images/ov1.png";
+import overlay2 from "../images/ov2.png";
+import overlay3 from "../images/ov3.png";
+import overlay4 from "../images/ov4.png";
+import overlay5 from "../images/ov5.png";
+import overlay6 from "../images/ov6.png";
+import overlay7 from "../images/ov7.png";
+import overlay8 from "../images/ov8.png";
+
 export const Bio = {
   name: "Nishant Acharekar",
   roles: [
     "Software Engineer",
+    "Graphic Designer",
     "Full-Stack Developer",
+    "Content Creator",
     "Web-Developer",
     "UI/UX Developer",
-    "Data Analyst",
-    "Data Engineer",
-    "BI/SQL Analyst",
-    "IT Applications Engineer",
-    "Content Creator",
+    "Video Editor"
   ],
   description:
-      "Software Engineer with 3+ years of experience developing enterprise web applications," + 
-      " financial reporting systems, and data driven solutions using C#, ASP.NET MVC," + 
-      " JavaScript, SQL Server, React, and PostgreSQL. Experienced in designing" + 
-      " scalable backend services, integrating responsive frontends, optimizing SQL performance, and delivering production-ready " +
-      "software across enterprise and nonprofit environments.", 
+    "Software Engineer with 3+ years of experience building enterprise web applications," +
+    " financial reporting systems, and data-driven solutions using Python, C#, ASP.NET MVC," +
+    " JavaScript, SQL Server, React, and PostgreSQL. Also a graphic designer, video editor," +
+    " and content creator since 2016, running the FireEmperor YouTube channel (400+ videos," +
+    " 2K+ subscribers) and designing thumbnails, overlays, and edits in Photoshop," +
+    " Premiere Pro, and After Effects. I enjoy combining engineering and design to build" +
+    " products that work well and look great.",
   github: "https://github.com/NishantA9",
   resume: "https://drive.google.com/file/d/1d-tNtzC5vdSFIFwtf57LI3ceQcDVVSC1/view?usp=sharing",
   // resumeSDE: "https://drive.google.com/file/d/1_QVDdlLqVdzaXvGM3mHhwaXlgHihOGqr/view?usp=sharing",
@@ -376,32 +398,12 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "React.js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "WordPress",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzIxNzU5QiI+PHBhdGggZD0iTTIxLjQ2OSAxMmMwIDUuMjMtNC4yMzkgOS40NjktOS40NjkgOS40NjktNS4yMyAwLTkuNDY5LTQuMjM5LTkuNDY5LTkuNDY5IDAtNS4yMyA0LjIzOS05LjQ2OSA5LjQ2OS05LjQ2OSA1LjIzIDAgOS40NjkgNC4yMzkgOS40NjkgOS40Njl6bS0xMS42ODUgNi45OTJjMS4xNTkgMCAyLjI1LS4yMzQgMy4yNS0uNjU4bC0yLjc0Ni03Ljk4My0yLjg3NSA4LjM0OWMuNzc5LjE5NCAxLjU4MS4yOTIgMi4zNzEuMjkyem03LjMxMS0xLjM3M2MuNzI5LTEuMjI1IDEuMTQ4LTIuNjU0IDEuMTQ4LTQuMTgxIDAtMS4zOTgtLjM3NS0yLjcxMy0xLjAzNC0zLjg0NS0uNjM2LTEuMzc1LTEuMDM0LTIuNjAyLTEuMDM0LTQuMDA0IDAtMS41NTkuNTkzLTMuMDEgMS41NTktNC4xNzEtMS42NDctMS40MDctMy44My0yLjI2NC02LjItMi4yNjQtMy4wNjcgMC01Ljc5MSAxLjE4NS03Ljg0IDMuMTE3LjU5MyAwIC45OS4wNjMgMS40MDguMDYzIDIuMjk2IDAgNS44NTUtLjI4MSA1Ljg1NS0uMjgxIDEuMTg4LS4wNjMgMS4zMTMgMS42ODQuMTI1IDEuODEgMCAwLTEuMTg4LjEyNS0yLjUxNS4xODhsNy45ODMgMjMuNzY0IDQuNzk1LTE0LjQzNCAyLjMzOS02Ljk5MmMwIDAtMS4xODgtLjA2My0yLjUxNS0uMTg4LTEuMTU5LS4xMjUtMS4wMzQtMS44NzMuMTI1LTEuODEgMCAwIDMuNjIyLjI4MSA1Ljc5Mi4yODEgMi4yOTYgMCA1Ljg1NS0uMjgxIDU4NTUtLjI4MSAxLjE4OC0uMDYzIDEuMzEzIDEuNjg0LjEyNSAxLjgxIDAgMC0xLjE4OC4xMjUtMi41MTUuMTg4bC03LjkwOCAyMy41NDYgMi40NzEtMTAuNzEyYy4zNzUtMS42NDcuNzE5LTIuODEyIDEuMDM0LTMuNzc3em0tMTEuMDYzIDEuMzQybC02LjU1NC0xOS4wNDVjLTEuNjQ3IDEuMDA3LTMuMDM2IDIuNDA0LTQuMDEgNC4xMDktLjg3NSAxLjUyOC0xLjM3NSAzLjI1LTEuMzc1IDUuMDcgMCA0LjE0IDIuNjU0IDcuNjY0IDYuNDYxIDkuODY2em0tNi44NzUtMTEuNDY5Yy0uNjg3LTEuMzc1LTEuMDkzLTIuOTM4LTEuMDkzLTQuNTkzIDAtMy4wODkgMS41NTktNS44MSA0LjE0MS03LjM5OC0yLjQ2NSAxLjU1OS00LjE0MSA0LjM3My00LjE0MSA3LjU4IDAgNS4yMyA0LjIzOSA5LjQ2OSA5LjQ2OSA5LjQ2OSA1LjIzIDAgOS40NjktNC4yMzkgOS40NjktOS40Njl6bS04LjM0OC01LjIzYzAgMS4wNjMuNjU2IDEuNjg0IDEuNzE5IDEuNjg0czEuNzE5LS42MjEgMS43MTktMS42ODQtLjY1Ni0xLjY4NC0xLjcxOS0xLjY4NC0xLjcxOS42MjEtMS43MTkgMS42ODR6Ii8+PC9zdmc+",
-      },
+      {name: "React.js", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",},
+      {name: "WordPress", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzIxNzU5QiI+PHBhdGggZD0iTTIxLjQ2OSAxMmMwIDUuMjMtNC4yMzkgOS40NjktOS40NjkgOS40NjktNS4yMyAwLTkuNDY5LTQuMjM5LTkuNDY5LTkuNDY5IDAtNS4yMyA0LjIzOS05LjQ2OSA5LjQ2OS05LjQ2OSA1LjIzIDAgOS40NjkgNC4yMzkgOS40NjkgOS40Njl6bS0xMS42ODUgNi45OTJjMS4xNTkgMCAyLjI1LS4yMzQgMy4yNS0uNjU4bC0yLjc0Ni03Ljk4My0yLjg3NSA4LjM0OWMuNzc5LjE5NCAxLjU4MS4yOTIgMi4zNzEuMjkyem03LjMxMS0xLjM3M2MuNzI5LTEuMjI1IDEuMTQ4LTIuNjU0IDEuMTQ4LTQuMTgxIDAtMS4zOTgtLjM3NS0yLjcxMy0xLjAzNC0zLjg0NS0uNjM2LTEuMzc1LTEuMDM0LTIuNjAyLTEuMDM0LTQuMDA0IDAtMS41NTkuNTkzLTMuMDEgMS41NTktNC4xNzEtMS42NDctMS40MDctMy44My0yLjI2NC02LjItMi4yNjQtMy4wNjcgMC01Ljc5MSAxLjE4NS03Ljg0IDMuMTE3LjU5MyAwIC45OS4wNjMgMS40MDguMDYzIDIuMjk2IDAgNS44NTUtLjI4MSA1Ljg1NS0uMjgxIDEuMTg4LS4wNjMgMS4zMTMgMS42ODQuMTI1IDEuODEgMCAwLTEuMTg4LjEyNS0yLjUxNS4xODhsNy45ODMgMjMuNzY0IDQuNzk1LTE0LjQzNCAyLjMzOS02Ljk5MmMwIDAtMS4xODgtLjA2My0yLjUxNS0uMTg4LTEuMTU5LS4xMjUtMS4wMzQtMS44NzMuMTI1LTEuODEgMCAwIDMuNjIyLjI4MSA1Ljc5Mi4yODEgMi4yOTYgMCA1Ljg1NS0uMjgxIDU4NTUtLjI4MSAxLjE4OC0uMDYzIDEuMzEzIDEuNjg0LjEyNSAxLjgxIDAgMC0xLjE4OC4xMjUtMi41MTUuMTg4bC03LjkwOCAyMy41NDYgMi40NzEtMTAuNzEyYy4zNzUtMS42NDcuNzE5LTIuODEyIDEuMDM0LTMuNzc3em0tMTEuMDYzIDEuMzQybC02LjU1NC0xOS4wNDVjLTEuNjQ3IDEuMDA3LTMuMDM2IDIuNDA0LTQuMDEgNC4xMDktLjg3NSAxLjUyOC0xLjM3NSAzLjI1LTEuMzc1IDUuMDcgMCA0LjE0IDIuNjU0IDcuNjY0IDYuNDYxIDkuODY2em0tNi44NzUtMTEuNDY5Yy0uNjg3LTEuMzc1LTEuMDkzLTIuOTM4LTEuMDkzLTQuNTkzIDAtMy4wODkgMS41NTktNS44MSA0LjE0MS03LjM5OC0yLjQ2NSAxLjU1OS00LjE0MSA0LjM3My00LjE0MSA3LjU4IDAgNS4yMyA0LjIzOSA5LjQ2OSA5LjQ2OSA5LjQ2OSA1LjIzIDAgOS40NjktNC4yMzkgOS40NjktOS40Njl6bS04LjM0OC01LjIzYzAgMS4wNjMuNjU2IDEuNjg0IDEuNzE5IDEuNjg0czEuNzE5LS42MjEgMS43MTktMS42ODQtLjY1Ni0xLjY4NC0xLjcxOS0xLjY4NC0xLjcxOS42MjEtMS43MTkgMS42ODR6Ii8+PC9zdmc+"},
       { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
+      {name: "CSS", image: "https://img.icons8.com/?size=100&id=11935&format=png&color=000000",},
+      { name: "JavaScript", image: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",},
+      {name: "Bootstrap", image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",},
       { name: "Tailwind CSS", image: "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000" },
       { name: "jQuery", image: "https://img.icons8.com/?size=100&id=40253&format=png&color=0075F8" },
       { name: "EJS", image: "https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000" },
@@ -428,14 +430,14 @@ export const skills = [
   },
 
   {
-    title: "Data & BI",
+    title: "Graphic Design & Video Editing",
     skills: [
-      { name: "SQL", image: "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" },
-      { name: "Power BI", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=" },
-      { name: "Tableau", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0iIzNBNTk5OCI+PHBhdGggZD0iTTI1IDJDMTIuMzE4IDIgMiAxMi4zMTggMiAyNXMxMC4zMTggMjMgMjMgMjMgMjMtMTAuMzE4IDIzLTIzUzM3LjY4MiAyIDI1IDJ6bTAgNDEuM2MtMTAuMTExIDAtMTguMy04LjE4OS0xOC4zLTE4LjNTMTQuODg5IDYuNyAyNSA2LjcgNDMuMyAxNC44ODkgNDMuMyAyNSAzNS4xMTEgNDMuMyAyNSA0My4zeiIvPjxyZWN0IHg9IjIzLjIiIHk9IjE0LjMiIHdpZHRoPSIzLjYiIGhlaWdodD0iMjEuNCIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE0LjMiIHk9IjIzLjIiIHdpZHRoPSIyMS40IiBoZWlnaHQ9IjMuNiIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE5LjEiIHk9IjE2IiB3aWR0aD0iMTEuOCIgaGVpZ2h0PSIxLjgiIGZpbGw9IiNGRkY5RkYiLz48cmVjdCB4PSIyNC4xIiB5PSIxOS4xIiB3aWR0aD0iMS44IiBoZWlnaHQ9IjExLjgiIGZpbGw9IiNGRkY5RkYiLz48L3N2Zz4=" },
-      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
-      { name: "Pandas", image: "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000" },
-      { name: "NumPy", image: "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000" },
+      { name: "Adobe Photoshop", image: "https://img.icons8.com/?size=100&id=13677&format=png&color=000000" },
+      { name: "Adobe Premiere Pro", image: "https://img.icons8.com/?size=100&id=e57Y1CnsOasB&format=png&color=000000" },
+      { name: "Adobe After Effects", image: "https://img.icons8.com/?size=100&id=PjwYNsHHjpKj&format=png&color=000000" },
+      { name: "Canva", image: "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000" },
+      { name: "Adobe Lightroom", image: "https://img.icons8.com/?size=100&id=cAVP5AOANxnf&format=png&color=000000" },
+      { name: "Sony Vegas Pro", image: "https://img.icons8.com/?size=100&id=6JY5zZtJducA&format=png&color=000000" },
     ],
   },
 
@@ -453,6 +455,19 @@ export const skills = [
       { name: "Ubuntu", image: "https://img.icons8.com/?size=100&id=63208&format=png&color=000000" },
     ],
   },
+
+  {
+    title: "Data & BI",
+    skills: [
+      { name: "SQL", image: "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" },
+      { name: "Power BI", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0Y2Qzk0MiI+PHBhdGggZD0iTTMuNSA5aDIuNXY5aC0yLjVWOXptNS41LTZoMi41djE2SDlWM3ptNS41IDRoMi41djEyaC0yLjVWN3ptNS41LTRoMi41djE2aC0yLjVWM3oiLz48L3N2Zz4=" },
+      { name: "Tableau", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0iIzNBNTk5OCI+PHBhdGggZD0iTTI1IDJDMTIuMzE4IDIgMiAxMi4zMTggMiAyNXMxMC4zMTggMjMgMjMgMjMgMjMtMTAuMzE4IDIzLTIzUzM3LjY4MiAyIDI1IDJ6bTAgNDEuM2MtMTAuMTExIDAtMTguMy04LjE4OS0xOC4zLTE4LjNTMTQuODg5IDYuNyAyNSA2LjcgNDMuMyAxNC44ODkgNDMuMyAyNSAzNS4xMTEgNDMuMyAyNSA0My4zeiIvPjxyZWN0IHg9IjIzLjIiIHk9IjE0LjMiIHdpZHRoPSIzLjYiIGhlaWdodD0iMjEuNCIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE0LjMiIHk9IjIzLjIiIHdpZHRoPSIyMS40IiBoZWlnaHQ9IjMuNiIgZmlsbD0iIzNBNTk5OCIvPjxyZWN0IHg9IjE5LjEiIHk9IjE2IiB3aWR0aD0iMTEuOCIgaGVpZ2h0PSIxLjgiIGZpbGw9IiNGRkY5RkYiLz48cmVjdCB4PSIyNC4xIiB5PSIxOS4xIiB3aWR0aD0iMS44IiBoZWlnaHQ9IjExLjgiIGZpbGw9IiNGRkY5RkYiLz48L3N2Zz4=" },
+      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { name: "Pandas", image: "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000" },
+      { name: "NumPy", image: "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000" },
+    ],
+  },
+
 ];
 
 // export const experiences = [
@@ -606,6 +621,19 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/LOGO.png",
+    role: "Streamer & Content Creator",
+    company: "YouTube (FireEmperor)",
+    date: "Dec 2016 - Present",
+    desc: [
+    "Produced 400+ videos and managed a gaming-focused YouTube channel, reaching 300K+ views and 2K+ subscribers.",
+    "Planned content, edited videos, and handled publishing and live streaming alongside academic and professional work."
+    ],
+    skills: ["Premiere Pro", "After Effects", "Photoshop", "Content Creation", "Graphic Designer", "Photo Editing", "Gaming", "Commentary", "YouTube", "Video Editing", "SEO"],
+  },
+
+  {
+    id: 1,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
     role: "Web Developer",
     company: "Rebecca Everlene Trust Company",
@@ -621,7 +649,7 @@ export const experiences = [
   },
 
   {
-    id: 1,
+    id: 2,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     role: "Graduate Teaching Assistant",
     company: "UNC Charlotte",
@@ -635,7 +663,7 @@ export const experiences = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: "https://bfsi.eletsonline.com/wp-content/uploads/2018/05/nelito.jpg",
     role: "Software Engineer",
     company: "Nelito Systems Pvt. Ltd",
@@ -650,7 +678,7 @@ export const experiences = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: "https://logodix.com/logo/501874.png",
     role: "Web Development Intern",
     company: "The Sparks Foundation",
@@ -663,7 +691,7 @@ export const experiences = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: "https://getmap.co.id/assets/img/divisions/getdesign.jpg",
     role: "Data Scientist Intern",
     company: "Dezignolics Web & Software Solutions",
@@ -675,7 +703,7 @@ export const experiences = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: "https://img.jagranjosh.com/images/2022/June/662022/27545183_565788393830264_1612251284821766020_n.png",
     role: "Graphic Design Intern",
     company: "Rotaract Club of KC ",
@@ -685,26 +713,13 @@ export const experiences = [
     ],
     skills: [ "Adobe Photoshop", "Adobe Illustrator", "Canva"],
   },
-
-  {
-    id: 6,
-    img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/LOGO.png",
-    role: "Streamer & Content Creator",
-    company: "YouTube (FireEmperor)",
-    date: "Dec 2016 - Present",
-    desc: [
-    "Produced 400+ videos and managed a gaming-focused YouTube channel, reaching 300K+ views and 2K+ subscribers.",
-    "Planned content, edited videos, and handled publishing and live streaming alongside academic and professional work."
-    ],
-    skills: ["Content Creation", "Graphic Designer", "Photo Editing", "Gaming", "Commentary", "YouTube", "Video Editing", "SEO"],
-  },
 ];
 
 export const education = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
-    school: "University of North Carolina at Charlotte, USA",
+    school: "University of North Carolina at Charlotte, Charlotte, NC, USA",
     date: "Aug 2023 - May 2025",
     grade: "3.90 GPA",
     desc:
@@ -714,7 +729,7 @@ export const education = [
   {
     id: 1,
     img: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/univ_mum.jpg",
-    school: "University of Mumbai",
+    school: "University of Mumbai, Mumbai, Maharashtra, India",
     date: "Apr 2018 - May 2022",
     grade: "3.5 GPA",
     desc:
@@ -723,15 +738,67 @@ export const education = [
   },
 ];
 
+export const creativeWork = [
+  { id: 1, category: "thumbnail", title: "Genshin Impact Event Thumbnail", image: thumbnail1 },
+  { id: 2, category: "video", title: "YT-Short-Edit", youtube: "https://www.youtube.com/shorts/wxHoxyao4bQ" },
+  { id: 7, category: "overlay", title: "Stream Overlay 1", image: overlay1 },
+  { id: 23, category: "overlay", title: "Vtuber Art 1 - Main", image: overlay5 },
+  { id: 17, category: "thumbnail", title: "Genshin Impact FE X Furina Thumbnail", image: thumbnail9 },
+  { id: 5, category: "video", title: "Valorant-Short", youtube: "https://www.youtube.com/shorts/8hklL9PyBTQ" },
+  { id: 8, category: "thumbnail", title: "Valorant Thumbnail", image: thumbnail2 },
+  { id: 9, category: "thumbnail", title: "Genshin Archon Quest Thumbnail", image: thumbnail3 },
+  { id: 11, category: "video", title: "First-Intro-MadeinPR", youtube: "https://www.youtube.com/watch?v=o4EEavQiUMc" },
+  { id: 12, category: "overlay", title: "Logo-1", image: overlay3 },
+  { id: 13, category: "overlay", title: "Logo-2", image: overlay4 },
+  { id: 6, category: "video", title: "Valorant-Short-2", youtube: "https://www.youtube.com/shorts/Q8eEW5y2bAk" },
+  { id: 14, category: "thumbnail", title: "Genshin Impact Banner Thumbnail 1", image: thumbnail7 },
+  { id: 21, category: "thumbnail", title: "Genshin Impact FE X Vodynitsa X Vesna Thumbnail", image: thumbnail11 },
+  { id: 15, category: "thumbnail", title: "Genshin Impact Banner Thumbnail 2", image: thumbnail4 },
+  {id: 10, category: "overlay", title: "Character Art", image: overlay6 },
+  { id: 3, category: "video", title: "Livestream-Overlay", youtube: "https://www.youtube.com/watch?v=Ki_a0Q5PhzU" },
+  { id: 4, category: "video", title: "Most-Watched-Video", youtube: "https://www.youtube.com/watch?v=C99FnpMsSmI&t=2s" },
+  { id: 16, category: "thumbnail", title: "Genshin Impact FE X Mavuika Thumbnail", image: thumbnail10 },
+  { id: 18, category: "thumbnail", title: "Genshin Impact Beidou Thumbnail", image: thumbnail8 },
+  { id: 19, category: "thumbnail", title: "Genshin Impact Thumbnail", image: thumbnail5 },
+  { id: 20, category: "thumbnail", title: "Genshin Impact FE X Mizuki X Faruzan Thumbnail", image: thumbnail6 },
+  { id: 22, category: "overlay", title: "Stream Overlay 2", image: overlay2 },
+  { id: 24, category: "overlay", title: "Vtuber Art 2", image: overlay7 },
+  { id: 25, category: "overlay", title: "Banner Art YouTube", image: overlay8 },
+  { id: 26, category: "video", title: "Pokemon-Overlay-Template-In-Video-Live", youtube: "https://www.youtube.com/watch?v=ENng3-Xwv3k&list=PLDECYdK_KqGPrTA3ceeqeoZLprV87XmS4" },
+  { id: 27, category: "video", title: "YT-Short-highest-dmg", youtube: "https://www.youtube.com/shorts/cG5eqF9Epnw" },
+];
+
 export const projects = [
-    {
+
+  {
     id: 1,
+    title: "1Fi Marketplace",
+    date: "Aug 2026",
+    description:
+      "A full-stack marketplace feature built for the 1Fi Shop page, browse smartphones and buy them on EMI plans backed by mutual funds, without liquidating investments.",
+    image: oneFiImage,
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Supabase",
+      "Superbase Auth",
+      "REST API",
+      "1Fi API",
+      "CRUD Operations",
+    ],
+    category: "web app",
+    github: "https://1fi-marketplace-kappa.vercel.app/",
+  },
+
+    {
+    id: 2,
     title: "Manga-Kun Reviews",
     date: "Feb 2026",
     description:
       "Built and deployed a React-based full-stack book management app using Supabase (PostgreSQL), implementing dynamic CRUD workflows, client-side routing, and REST-driven data integration. Integrated the Open Library Covers API for automated ISBN-based cover retrieval and deployed via Vercel with CI/CD support.",
-    image:
-    "https://github.com/NishantA9/portfolio-images/blob/main/new-manga.png?raw=true",
+    image: mangaimg,
     tags: [
       "React Js",
       "HTML",
@@ -749,7 +816,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "UNCC High Fidelity Prototype",
     date: "Jan 2025",
     description:
@@ -764,7 +831,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -791,7 +858,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -811,7 +878,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Crypto Dunks",
     date: "Jul 2024",
     description:
@@ -833,7 +900,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "React Keeper App",
     date: "Jun 2024",
     description:
@@ -854,7 +921,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Website Collection",
     date: "Aug 2024",
     description:
@@ -881,7 +948,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Backend Projects",
     date: "Aug 2024",
     description:
@@ -900,7 +967,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Emotion Based Music AI",
     date: "Dec 2023",
     description:
@@ -913,7 +980,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
     date: "Apr 2024",
     description:
@@ -930,7 +997,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Image AI",
     date: "Jul 2024",
     description:
@@ -947,7 +1014,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "Weather Website",
     date: "Jun 2024",
     description:
@@ -975,7 +1042,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 14,
     title: "Permalist Website",
     date: "May 2024",
     description:
@@ -998,7 +1065,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 15,
     title: "Android Chat App",
     date: "Nov 2023",
     description:
@@ -1011,7 +1078,7 @@ export const projects = [
   },
 
   {
-    id: 15,
+    id: 16,
     title: "Weather App",
     date: "Oct 2023",
     description:
@@ -1024,7 +1091,7 @@ export const projects = [
   },
 
   {
-    id: 16,
+    id: 17,
     title: "Todo App",
     date: "Sep 2023",
     description:
@@ -1037,7 +1104,7 @@ export const projects = [
   },
 
   {
-    id: 17,
+    id: 18,
     title: "Calculator App",
     date: "Aug 2023",
     description:
@@ -1050,7 +1117,7 @@ export const projects = [
   },
 
   {
-    id: 18,
+    id: 19,
     title: "FastnFitness App",
     date: "Sep 2021",
     description:
@@ -1063,7 +1130,7 @@ export const projects = [
   },
 
     {
-    id: 19,
+    id: 20,
     title: "(OLD) Manga-Kun",
     date: "Jul 2024",
     description:
@@ -1097,4 +1164,5 @@ export const TimeLineData = [
   { year: 2023, text: "Resigned from Nelito and Started my Masters at UNC Charlotte" },
   { year: 2024, text: "Working as an AV-TECH, and now Started my Journey as a Graduate Teaching Assistant at UNC Charlotte" },
   { year: 2025, text: "Completed my Masters Degree, Completed my contract as Graduate Teaching Assistant at UNC Charlotte, Joined Rebecca as a Software Engineer, Looking for Full Time Roles" },
+  { year: 2026, text: "Left Rebecca, Relocated to India and Looking for Full Time Roles"},
 ];
