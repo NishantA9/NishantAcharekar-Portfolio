@@ -19,6 +19,7 @@ import overlay5 from "../images/ov5.png";
 import overlay6 from "../images/ov6.png";
 import overlay7 from "../images/ov7.png";
 import overlay8 from "../images/ov8.png";
+import overlay9 from "../images/ov9.png";
 
 export const Bio = {
   name: "Nishant Acharekar",
@@ -739,7 +740,8 @@ export const education = [
 ];
 
 export const creativeWork = [
-  { id: 1, category: "thumbnail", title: "Genshin Impact Event Thumbnail", image: thumbnail1 },
+  { id: 1, category: "overlay", title: "Ganesh-Darshan-Invitation-Card", image: overlay9 },
+  { id: 28, category: "thumbnail", title: "Genshin Impact Event Thumbnail", image: thumbnail1 },
   { id: 2, category: "video", title: "YT-Short-Edit", youtube: "https://www.youtube.com/shorts/wxHoxyao4bQ" },
   { id: 7, category: "overlay", title: "Stream Overlay 1", image: overlay1 },
   { id: 23, category: "overlay", title: "Vtuber Art 1 - Main", image: overlay5 },
@@ -766,6 +768,7 @@ export const creativeWork = [
   { id: 25, category: "overlay", title: "Banner Art YouTube", image: overlay8 },
   { id: 26, category: "video", title: "Pokemon-Overlay-Template-In-Video-Live", youtube: "https://www.youtube.com/watch?v=ENng3-Xwv3k&list=PLDECYdK_KqGPrTA3ceeqeoZLprV87XmS4" },
   { id: 27, category: "video", title: "YT-Short-highest-dmg", youtube: "https://www.youtube.com/shorts/cG5eqF9Epnw" },
+  
 ];
 
 export const projects = [
