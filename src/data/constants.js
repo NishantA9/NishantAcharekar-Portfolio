@@ -21,6 +21,8 @@ import overlay7 from "../images/ov7.png";
 import overlay8 from "../images/ov8.png";
 import overlay9 from "../images/ov9.png";
 import overlay10 from "../images/ov10.png";
+import overlay11 from "../images/ov11.png";
+import cocoColaNishant from "../images/coco-colaPrj-nish.png";
 
 export const Bio = {
   name: "Nishant Acharekar",
@@ -743,6 +745,7 @@ export const education = [
 export const creativeWork = [
   { id: 1, category: "overlay", title: "Ganesh-Darshan-Invitation-Card", image: overlay9 },
   { id: 29, category: "overlay", title: "FITISTAN-Poster-Assignment", image: overlay10 },
+  { id: 30, category: "overlay", title: "Market-Wolf Design", image: overlay11 },
   { id: 28, category: "thumbnail", title: "Genshin Impact Event Thumbnail", image: thumbnail1 },
   { id: 2, category: "video", title: "YT-Short-Edit", youtube: "https://www.youtube.com/shorts/wxHoxyao4bQ" },
   { id: 7, category: "overlay", title: "Stream Overlay 1", image: overlay1 },
@@ -774,9 +777,28 @@ export const creativeWork = [
 ];
 
 export const projects = [
-
+  
   {
     id: 1,
+    title: "Coco-Cola Drink Page Concept",
+    date: "Oct 2026",
+    description:
+      "A Figma-based design concept for a Coca-Cola drink page, showcasing a modern and user-friendly interface with interactive elements and visual appeal.",
+    image: cocoColaNishant,
+      tags: [
+      "Figma",
+      "UI/UX Design",
+      "Web Design",
+      "Prototyping",
+      "User Experience",
+    ],
+    category: "web app",
+    github: "https://www.figma.com/design/MrZerW7fr3IDwKAyGzZBIA/Coco-Cola-drink-page-concept---Nishant-Acharekar?node-id=0-1&t=LHTN6IAl5yM6Bjs2-1",
+  },
+
+
+{
+    id: 2,
     title: "1Fi Marketplace",
     date: "Aug 2026",
     description:
@@ -798,7 +820,7 @@ export const projects = [
   },
 
     {
-    id: 2,
+    id: 3,
     title: "Manga-Kun Reviews",
     date: "Feb 2026",
     description:
@@ -821,7 +843,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "UNCC High Fidelity Prototype",
     date: "Jan 2025",
     description:
@@ -836,7 +858,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -863,7 +885,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -883,7 +905,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Crypto Dunks",
     date: "Jul 2024",
     description:
@@ -905,7 +927,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "React Keeper App",
     date: "Jun 2024",
     description:
@@ -926,7 +948,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Website Collection",
     date: "Aug 2024",
     description:
@@ -953,7 +975,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Backend Projects",
     date: "Aug 2024",
     description:
@@ -972,7 +994,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Emotion Based Music AI",
     date: "Dec 2023",
     description:
@@ -985,7 +1007,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
     date: "Apr 2024",
     description:
@@ -1002,7 +1024,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "Image AI",
     date: "Jul 2024",
     description:
@@ -1019,7 +1041,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 14,
     title: "Weather Website",
     date: "Jun 2024",
     description:
@@ -1047,7 +1069,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 15,
     title: "Permalist Website",
     date: "May 2024",
     description:
@@ -1070,7 +1092,7 @@ export const projects = [
   },
 
   {
-    id: 15,
+    id: 16,
     title: "Android Chat App",
     date: "Nov 2023",
     description:
@@ -1083,7 +1105,7 @@ export const projects = [
   },
 
   {
-    id: 16,
+    id: 17,
     title: "Weather App",
     date: "Oct 2023",
     description:
@@ -1096,7 +1118,7 @@ export const projects = [
   },
 
   {
-    id: 17,
+    id: 18,
     title: "Todo App",
     date: "Sep 2023",
     description:
@@ -1109,7 +1131,7 @@ export const projects = [
   },
 
   {
-    id: 18,
+    id: 19,
     title: "Calculator App",
     date: "Aug 2023",
     description:
@@ -1122,7 +1144,7 @@ export const projects = [
   },
 
   {
-    id: 19,
+    id: 20,
     title: "FastnFitness App",
     date: "Sep 2021",
     description:
@@ -1135,7 +1157,7 @@ export const projects = [
   },
 
     {
-    id: 20,
+    id: 21,
     title: "(OLD) Manga-Kun",
     date: "Jul 2024",
     description:
