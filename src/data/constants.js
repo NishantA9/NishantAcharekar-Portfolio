@@ -23,6 +23,7 @@ import overlay9 from "../images/ov9.png";
 import overlay10 from "../images/ov10.png";
 import overlay11 from "../images/ov11.png";
 import cocoColaNishant from "../images/coco-colaPrj-nish.png";
+import ajaiaDocsimg from "../images/ajaia-docs-nishant.png";
 
 export const Bio = {
   name: "Nishant Acharekar",
@@ -779,9 +780,9 @@ export const creativeWork = [
 export const projects = [
   
   {
-    id: 1,
+    id: 78,
     title: "Coco-Cola Drink Page Concept",
-    date: "Oct 2026",
+    date: "Nov 2026",
     description:
       "A Figma-based design concept for a Coca-Cola drink page, showcasing a modern and user-friendly interface with interactive elements and visual appeal.",
     image: cocoColaNishant,
@@ -796,9 +797,29 @@ export const projects = [
     github: "https://www.figma.com/design/MrZerW7fr3IDwKAyGzZBIA/Coco-Cola-drink-page-concept---Nishant-Acharekar?node-id=0-1&t=LHTN6IAl5yM6Bjs2-1",
   },
 
+  {
+    id: 79,
+    title: "Ajaia Docs",
+    date: "Oct 2026",
+    description:
+      "A full-stack collaborative document editor with rich text formatting, autosaving, .txt and .md file upload, and document sharing with view and edit roles. Built with React, Tiptap, Express, and SQLite, with server-side access control and tests.",
+    image: cocoColaNishant,
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "SQLite",
+      "Tiptap",
+      "Full Stack",
+      "Access Control",
+    ],
+    category: "web app",
+    github: "https://ajaia-docs-h1cs.onrender.com/",
+    demo: "https://github.com/NishantA9/ajaia-docs",
+  },
 
 {
-    id: 2,
+    id: 80,
     title: "1Fi Marketplace",
     date: "Aug 2026",
     description:
@@ -820,7 +841,7 @@ export const projects = [
   },
 
     {
-    id: 3,
+    id: 81,
     title: "Manga-Kun Reviews",
     date: "Feb 2026",
     description:
@@ -843,7 +864,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 82,
     title: "UNCC High Fidelity Prototype",
     date: "Jan 2025",
     description:
@@ -858,7 +879,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 83,
     title: "A Blog on Unexplored Forts of Maharashtra",
     date: "Nov 2020",
     description:
@@ -885,7 +906,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 84,
     title: "My Portfolio",
     date: "Aug 2024",
     description:
@@ -905,7 +926,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 85,
     title: "Crypto Dunks",
     date: "Jul 2024",
     description:
@@ -927,7 +948,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 86,
     title: "React Keeper App",
     date: "Jun 2024",
     description:
@@ -948,7 +969,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 87,
     title: "Website Collection",
     date: "Aug 2024",
     description:
@@ -975,7 +996,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 88,
     title: "Backend Projects",
     date: "Aug 2024",
     description:
@@ -994,7 +1015,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 89,
     title: "Emotion Based Music AI",
     date: "Dec 2023",
     description:
@@ -1007,7 +1028,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 90,
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
     date: "Apr 2024",
     description:
@@ -1024,7 +1045,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 91,
     title: "Image AI",
     date: "Jul 2024",
     description:
@@ -1041,7 +1062,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 92,
     title: "Weather Website",
     date: "Jun 2024",
     description:
@@ -1069,7 +1090,7 @@ export const projects = [
   },
 
   {
-    id: 15,
+    id: 93,
     title: "Permalist Website",
     date: "May 2024",
     description:
@@ -1092,7 +1113,7 @@ export const projects = [
   },
 
   {
-    id: 16,
+    id: 94,
     title: "Android Chat App",
     date: "Nov 2023",
     description:
@@ -1105,7 +1126,7 @@ export const projects = [
   },
 
   {
-    id: 17,
+    id: 95,
     title: "Weather App",
     date: "Oct 2023",
     description:
@@ -1118,7 +1139,7 @@ export const projects = [
   },
 
   {
-    id: 18,
+    id: 96,
     title: "Todo App",
     date: "Sep 2023",
     description:
@@ -1131,7 +1152,7 @@ export const projects = [
   },
 
   {
-    id: 19,
+    id: 97,
     title: "Calculator App",
     date: "Aug 2023",
     description:
@@ -1144,7 +1165,7 @@ export const projects = [
   },
 
   {
-    id: 20,
+    id: 98,
     title: "FastnFitness App",
     date: "Sep 2021",
     description:
@@ -1157,7 +1178,7 @@ export const projects = [
   },
 
     {
-    id: 21,
+    id: 99,
     title: "(OLD) Manga-Kun",
     date: "Jul 2024",
     description:
