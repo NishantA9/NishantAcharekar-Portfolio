@@ -803,7 +803,7 @@ export const projects = [
     date: "Oct 2026",
     description:
       "A full-stack collaborative document editor with rich text formatting, autosaving, .txt and .md file upload, and document sharing with view and edit roles. Built with React, Tiptap, Express, and SQLite, with server-side access control and tests.",
-    image: cocoColaNishant,
+    image: ajaiaDocsimg,
     tags: [
       "React",
       "Node.js",
