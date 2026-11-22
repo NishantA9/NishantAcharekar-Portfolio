@@ -118,7 +118,7 @@ export const experience = [
     points: [
       "Mentored 40 students across rotating batches (of 120 total, split among 3 TAs) on system design fundamentals, database design, and full-stack application development through labs and one-on-one sessions.",
       "Reviewed student UML diagrams, database schemas, and Figma prototypes against structured design-to-implementation workflows, improving design clarity and reducing rework. Conducted code reviews and technical workshops on REST APIs, database integration, and software engineering best practices.",
-      "Independently designed a high-fidelity UI/UX prototype in Figma for a campus admissions portal, adopted by 200+ students, applying user-centered design and accessibility principles alongside TA responsibilities",
+      "Independently designed a high-fidelity UI/UX prototype in Figma for a campus admissions portal, adopted by 200+ students, applying user-centered design and accessibility principles alongside TA responsibilities.",
     ],
     skills: ["Mentoring", "System Design", "UML", "Figma", "Programming"],
   },
@@ -132,7 +132,7 @@ export const experience = [
       "Developed enterprise reporting modules for Punjab & Sind Bank's Fin-DART platform in a fintech environment using C#, ASP.NET MVC, SQL Server, and Stored Procedures, supporting regulatory financial reporting.",
       "Integrated SQL Server data with backend reporting logic to generate PDF, Excel, and Word exports using ClosedXML and iTextSharp, formatting and aligning table layouts for accurate regulatory output.",
       "Optimized complex SQL queries, joins, indexes, and stored procedures, improving report execution performance by 15% across enterprise datasets. ",
-      "Performed CRUD operations, validated 1,000+ financial records for regulatory accuracy, debugged frontend/backend issues, and supported production deployments ",
+      "Performed CRUD operations, validated 1,000+ financial records for regulatory accuracy, debugged frontend/backend issues, and supported production deployments.",
     ],
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
@@ -144,7 +144,7 @@ export const experience = [
     logo: "https://logodix.com/logo/501874.png",
     points: [
       "Built a donation portal and task tracker using Node.js, HTML, CSS, and JavaScript, integrating Razorpay to simplify and streamline donation transactions, along with CRUD operations and Git-based version control.",
-      "Designed frontend flows in Figma and optimized DOM updates to improve UI responsiveness",
+      "Designed frontend flows in Figma and optimized DOM updates to improve UI responsiveness.",
     ],
     skills: ["Node.js", "Razorpay", "Figma", "HTML", "CSS", "JavaScript", "PHP"],
   },
