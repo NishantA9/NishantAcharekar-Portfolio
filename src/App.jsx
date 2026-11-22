@@ -8,8 +8,8 @@ import TechChip from "./components/TechChip";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-const TICKER = ["UI/UX Design", "Web Apps", "Video Editing", "Thumbnails", "Machine Learning", "Android Apps", "Content Creation"];
-const PROJECT_FILTERS = ["All", "Web App", "Android App", "Machine Learning"];
+const TICKER = ["UI/UX Design", "Web Developer", "Video Editing", "Thumbnail Creation", "Android Developer", "Content Creation", "Software Developer"];
+const PROJECT_FILTERS = ["All", "Web App", "Android App", "Backend Projects"];
 const CREATIVE_FILTERS = ["All", "Thumbnails", "Video Edits", "Overlays"];
 
 function useRotating(items, ms = 2400) {

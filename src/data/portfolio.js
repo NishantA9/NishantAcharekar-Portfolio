@@ -10,7 +10,7 @@ export const profile = {
     " 2K+ subscribers) and designing thumbnails, overlays, and edits in Photoshop," +
     " Premiere Pro, and After Effects. I enjoy combining engineering and design to build" +
     " products that work well and look great.",  
-  resume: "https://drive.google.com/file/d/1d-tNtzC5vdSFIFwtf57LI3ceQcDVVSC1/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1fLU1FRkQTmj6KBDXdlp2UV3_auxZ_XYf/view?usp=sharing",
   email: "acharekarnishant9@gmail.com",
   social: {
     youtube: "https://www.youtube.com/@FireEmperor",
@@ -102,10 +102,10 @@ export const experience = [
     date: "Jul 2025 – Jul 2026",
     logo: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/rebecca.png",
     points: [
-      "Translated 75+ Figma designs into production-ready, responsive web pages.",
-      "Built reusable WordPress components and a transit portal that displays routes by state and system.",
-      "Researched, validated and cleaned 10,000+ public transit records using Excel and SQL.",
-      "Standardized GitHub-based deployment workflows across the team.",
+      "Engineered reusable WordPress components using JavaScript, HTML, CSS, and custom templates, improving consistency across 75+ responsive web pages.",
+      "Translated 75+ Figma designs into production-ready web pages, improving cross-device compatibility and reducing UI inconsistencies.",
+      "Researched, validated, and cleaned 10,000+ public transit records, then built a WordPress-based transit portal displaying routes by state and system, improving accessibility of transit information for internal stakeholders.",
+      "Standardized GitHub-based CI/CD workflows and version control, improving release consistency across the team.",
     ],
     skills: ["WordPress", "JavaScript", "Figma", "Git", "Power BI", "Excel", "CSS", "Responsive Design", "GitHub", "Web Development"],
   },
@@ -116,9 +116,9 @@ export const experience = [
     date: "Jun 2024 – May 2025",
     logo: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
     points: [
-      "Mentored 40 students on system design, database design and full-stack development.",
-      "Reviewed UML diagrams, schemas and Figma prototypes, reducing rework.",
-      "Designed a high-fidelity Figma prototype for a campus admissions portal, adopted by 200+ students.",
+      "Mentored 40 students across rotating batches (of 120 total, split among 3 TAs) on system design fundamentals, database design, and full-stack application development through labs and one-on-one sessions.",
+      "Reviewed student UML diagrams, database schemas, and Figma prototypes against structured design-to-implementation workflows, improving design clarity and reducing rework. Conducted code reviews and technical workshops on REST APIs, database integration, and software engineering best practices.",
+      "Independently designed a high-fidelity UI/UX prototype in Figma for a campus admissions portal, adopted by 200+ students, applying user-centered design and accessibility principles alongside TA responsibilities",
     ],
     skills: ["Mentoring", "System Design", "UML", "Figma", "Programming"],
   },
@@ -129,9 +129,10 @@ export const experience = [
     date: "Jul 2022 – Jul 2023",
     logo: "https://bfsi.eletsonline.com/wp-content/uploads/2018/05/nelito.jpg",
     points: [
-      "Built enterprise reporting modules for Punjab & Sind Bank's Fin-DART platform using C#, ASP.NET MVC and SQL Server.",
-      "Generated PDF, Excel and Word exports with ClosedXML and iTextSharp.",
-      "Optimized SQL queries and stored procedures, improving report performance by 15%.",
+      "Developed enterprise reporting modules for Punjab & Sind Bank's Fin-DART platform in a fintech environment using C#, ASP.NET MVC, SQL Server, and Stored Procedures, supporting regulatory financial reporting.",
+      "Integrated SQL Server data with backend reporting logic to generate PDF, Excel, and Word exports using ClosedXML and iTextSharp, formatting and aligning table layouts for accurate regulatory output.",
+      "Optimized complex SQL queries, joins, indexes, and stored procedures, improving report execution performance by 15% across enterprise datasets. ",
+      "Performed CRUD operations, validated 1,000+ financial records for regulatory accuracy, debugged frontend/backend issues, and supported production deployments ",
     ],
     skills: ["ASP.NET MVC", "C#", "SQL Server", "JavaScript", "HTML", "CSS", "Bootstrap", "Oracle"],
   },
@@ -142,7 +143,8 @@ export const experience = [
     date: "Oct 2021 – Nov 2021",
     logo: "https://logodix.com/logo/501874.png",
     points: [
-      "Built a donation portal with Node.js, HTML, CSS and JavaScript, integrating Razorpay.",
+      "Built a donation portal and task tracker using Node.js, HTML, CSS, and JavaScript, integrating Razorpay to simplify and streamline donation transactions, along with CRUD operations and Git-based version control.",
+      "Designed frontend flows in Figma and optimized DOM updates to improve UI responsiveness",
     ],
     skills: ["Node.js", "Razorpay", "Figma", "HTML", "CSS", "JavaScript", "PHP"],
   },
@@ -175,14 +177,14 @@ export const education = [
     school: "University of North Carolina at Charlotte",
     degree: "M.S. Information Technology",
     date: "Aug 2023 – May 2025",
-    grade: "GPA 3.90",
+    grade: "GPA 3.90 / 4.00",
     logo: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/uncc_logo.png",
   },
   {
     school: "University of Mumbai",
     degree: "B.E. Information Technology",
     date: "Aug 2018 – May 2022",
-    grade: "GPA 3.60",
+    grade: "GPA 3.60 / 4.00",
     logo: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/univ_mum.jpg",
   },
 ];
@@ -282,7 +284,7 @@ export const projects = [
   },
   {
     title: "Backend Projects",
-    category: "Machine Learning",
+    category: "Backend Projects",
     date: "Aug 2024",
     desc: 
     "A Collection of Backend Projects which contains some Python Scripts and Java and C++ Project codes.",
@@ -291,7 +293,7 @@ export const projects = [
   },
   {
     title: "Electronic-Medical-Record-System-Database-Based-On-Dermatology-Clinic",
-    category: "Machine Learning",
+    category: "Backend Projects",
     date: "Apr 2024",
     desc: "This Project contains a Database of Patients and Doctors of a Dermatology Clinic. It has a User authentication and is run on a local server. It uses Jypter Notebook, Python and MySQL.",
     image: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/emr.jpg",
@@ -299,7 +301,7 @@ export const projects = [
   },
   {
     title: "Emotion-Based Music AI",
-    category: "Machine Learning",
+    category: "Backend Projects",
     date: "Dec 2023",
     desc: "A emotion Based Music AI application which captures your face and detects the emotion, according to the detected emotion it will recommend songs on youtube. Made with Python, uses Keras, CV2 and other models.",
     image: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/emotionbasedmusicai.png",
@@ -307,7 +309,7 @@ export const projects = [
   },
   {
     title: "Image AI",
-    category: "Machine Learning",
+    category: "Backend Projects",
     date: "Jul 2024",
     desc: "This project demonstrates how to use the ImageAI library with the MobileNetV2 model for image classification. It involves setting up the environment, loading the pre-trained MobileNetV2 model, and classifying an image.",
     image: "https://raw.githubusercontent.com/NishantA9/portfolio-images/refs/heads/main/imageAi.jpg",
