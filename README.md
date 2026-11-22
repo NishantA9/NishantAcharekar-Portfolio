@@ -1,8 +1,79 @@
 # My Portfolio
 
-So this project was made by me. I followed some YouTube tutorials and went through some React documentation to work and get this portfolio done. To check the live version, here is the link: https://nishantacharekarportfolio.netlify.app/ 
+A personal portfolio built with React and Vite. It showcases my experience, skills, education, software projects, and creative work (thumbnails, overlays, and video edits), with a Spider-Man-inspired theme, light and dark modes, and background music.
 
-Now, below is some normal documentation that I don't want to edit and keep as a template.
+**Live site:** https://nishantacharekarportfolio.netlify.app/
+
+## Features
+
+- Animated loading screen and hero section with rotating role titles
+- Light and dark themes, saved in the browser
+- Background music with a mute toggle
+- Skills grouped by area, with tech icons
+- Experience and education with company and school logos
+- Project and creative galleries with category filters
+- Click an image to enlarge it, click a project card to open it
+- Video cards: play YouTube videos inline, or open them on YouTube
+- Contact form powered by EmailJS, with a mailto fallback
+
+## Tech Stack
+
+- React 18 and Vite
+- Plain CSS with theme variables
+- react-icons
+- EmailJS for the contact form
+- Deployed on Netlify
+
+## Project Structure
+
+```
+public/
+  images/        project and creative images
+  logos/         company and school logos
+  music/         background track
+  bg/            optional background images
+src/
+  components/    Navbar, Loader, WorkCard, Contact, Footer, TechChip, Logo
+  data/          portfolio.js (all content: profile, skills, experience, projects, creative)
+  App.jsx
+  index.css
+```
+
+Most content changes only need `src/data/portfolio.js`.
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Building for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+`npm run build` creates a `dist` folder. `npm run preview` serves that build so you can test it before deploying.
+
+## Deployment
+
+The site deploys to Netlify from the `main` branch:
+
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
+
+## Notes
+
+- Image and logo paths start with `/` and point to files in `public/`. File names are case-sensitive on Netlify, so match them exactly.
+- The contact form uses EmailJS public keys, which are safe to include in frontend code. Restrict allowed domains in the EmailJS dashboard.
+
+---
+
+Below is the default Create React App documentation, kept as a reference template.
 
 # Getting Started with Create React App
 
@@ -44,6 +115,36 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Learn More
 

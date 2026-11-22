@@ -1,202 +1,81 @@
-import React, {useState} from 'react';
-import { Link as LinkR } from 'react-router-dom';
-import styled, {useTheme} from 'styled-components';
-import {Bio} from "../data/constants";
-import {MenuRounded} from '@mui/icons-material';
+import { useState } from "react";
 
-// Creating a styled component
+const LINKS = [
+  ["Skills", "skills"],
+  ["Experience", "experience"],
+  ["Education", "education"],
+  ["Projects", "projects"],
+  ["Creative", "creative"],
+  ["Contact", "contact"],
+];
 
-const Nav = styled.div`
-  background-color: ${({ theme }) => theme.bg};
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  color: white;
-`;
-
-const NavbarContainer = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1rem;
-`;
-const NavLogo = styled(LinkR)`
-  width: 80%;
-  padding: 0 6px;
-  font-weight: 500;
-  font-size: 18px;
-  text-decoration: none;
-  color: inherit;
-`;
-
-const NavItems = styled.ul`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  padding: 0 6px;
-  list-style: none;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-const NavLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-`;
-
-const ButtonContainer = styled.div`
-  width: 80%;
-  height: 100%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 0 6px;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-const GithubButton = styled.a`
-  border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  transition: all 0.6s ease-in-out;
-  text-decoration: none;
-  &:hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.text_primary};
-  }
-`;
-
-// Mobile Menu
-const MobileIcon = styled.div`
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: ${({ theme }) => theme.text_primary};
-  display: none;
-  @media screen and (max-width: 768px) {
-    display: block;
-  }
-`;
-
-const MobileMenu = styled.ul`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 16px;
-  padding: 0 6px;
-  list-style: none;
-  width: 100%;
-  padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
-  position: absolute;
-  top: 80px;
-  right: 0;
-
-  transition: all 0.6s ease-in-out;
-  transform: ${({ isOpen }) =>
-    isOpen ? "translateY(0)" : "translateY(-100%)"};
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
-`;
-
-// Navbar Component function
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const theme = useTheme();
+function WebMark() {
   return (
-    <Nav>
-      <NavbarContainer>
-        <NavLogo to="/">Nishant Acharekar</NavLogo>
-
-        <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-          <MenuRounded style={{ color: "inherit" }} />
-        </MobileIcon>
-
-        <NavItems>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Creative">Creative</NavLink>
-          <NavLink href="#Education">Education</NavLink>
-          <NavLink href="#Contact">Contact</NavLink>
-        </NavItems>
-
-        
-        {isOpen && (
-          <MobileMenu isOpen={isOpen}>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-              About
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
-              Skills
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Creative">
-              Creative
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
-              Contact
-            </NavLink>
-            <GithubButton
-              href={Bio.github}
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Github Profile
-            </GithubButton>
-          </MobileMenu>
-        )}
-
-        <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
-          </GithubButton>
-        </ButtonContainer>
-      </NavbarContainer>
-    </Nav>
+    <svg width="28" height="28" viewBox="0 0 40 40" aria-hidden="true">
+      <g fill="none" stroke="var(--red)" strokeWidth="2">
+        <circle cx="20" cy="20" r="6" />
+        <circle cx="20" cy="20" r="12" />
+        <circle cx="20" cy="20" r="18" />
+        <path d="M20 2V38M2 20H38M7 7L33 33M33 7L7 33" />
+      </g>
+    </svg>
   );
-};
+}
 
-export default Navbar;
+function MusicIcon({ on }) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M9 18V5l12-2v13" />
+      <circle cx="6" cy="18" r="3" />
+      <circle cx="18" cy="16" r="3" />
+      {on ? <path d="M19 5c1.2 1.2 1.2 2.8 0 4" /> : <line x1="3" y1="3" x2="21" y2="21" />}
+    </svg>
+  );
+}
+
+export default function Navbar({ theme, onToggleTheme, musicOn, onToggleMusic }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="nav">
+      <a href="#top" className="brand" onClick={() => setOpen(false)}>
+        <WebMark />
+        <span>
+          NA<b>.</b>
+        </span>
+      </a>
+
+      <ul className={`nav-links ${open ? "open" : ""}`}>
+        {LINKS.map(([label, id]) => (
+          <li key={id}>
+            <a href={`#${id}`} onClick={() => setOpen(false)}>
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <div className="nav-actions">
+        <button
+          className={`icon-btn ${musicOn ? "on" : ""}`}
+          onClick={onToggleMusic}
+          aria-label={musicOn ? "Mute music" : "Play music"}
+          title={musicOn ? "Mute" : "Play music"}
+        >
+          <MusicIcon on={musicOn} />
+        </button>
+        <button
+          className="icon-btn"
+          onClick={onToggleTheme}
+          aria-label="Toggle light and dark theme"
+          title="Toggle theme"
+        >
+          {theme === "dark" ? "☀" : "☾"}
+        </button>
+        <button className="icon-btn menu-btn" onClick={() => setOpen((o) => !o)} aria-label="Open menu">
+          ☰
+        </button>
+      </div>
+    </header>
+  );
+}
